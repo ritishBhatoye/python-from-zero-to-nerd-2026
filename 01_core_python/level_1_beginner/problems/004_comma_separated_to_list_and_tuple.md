@@ -17,7 +17,7 @@
 
 ## Objective
 
-Accept comma-separated numbers from console and generate a list and a tuple with those numbers.
+Accept comma-separated numbers and generate a list and a tuple.
 
 ---
 
@@ -27,17 +27,11 @@ Implement the solution as described above.
 
 ---
 
-## Examples
-
-See problem description.
-
----
-
 ## Hints (use only if stuck)
 
-1. Use input().split(',')
-2. Convert to integers with map(int, ...)
-3. Create tuple from list
+1. Refer to the problem description
+2. Consider using appropriate data structures
+3. Test with multiple inputs
 
 ---
 

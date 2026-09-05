@@ -27,17 +27,11 @@ Implement the solution as described above.
 
 ---
 
-## Examples
-
-See problem description.
-
----
-
 ## Hints (use only if stuck)
 
-1. Use range(2000, 3201)
-2. Use modulo % operator
-3. Check: n % 7 == 0 and n % 5 != 0
+1. Refer to the problem description
+2. Consider using appropriate data structures
+3. Test with multiple inputs
 
 ---
 

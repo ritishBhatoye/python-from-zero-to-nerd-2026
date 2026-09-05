@@ -17,7 +17,7 @@
 
 ## Objective
 
-Compute the factorial of a given number.
+Compute the factorial of a given number. Input: 8, Output: 40320
 
 ---
 
@@ -27,17 +27,11 @@ Implement the solution as described above.
 
 ---
 
-## Examples
-
-See problem description.
-
----
-
 ## Hints (use only if stuck)
 
-1. Use recursion or loop
-2. Base case: factorial(0) = 1
-3. Recursive: n * factorial(n-1)
+1. Refer to the problem description
+2. Consider using appropriate data structures
+3. Test with multiple inputs
 
 ---
 

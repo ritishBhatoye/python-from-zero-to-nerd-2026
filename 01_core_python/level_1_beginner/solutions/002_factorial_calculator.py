@@ -1,6 +1,6 @@
 """Exercise 002 — Factorial Calculator.
 
-Compute the factorial of a given number.
+Compute the factorial of a given number. Input: 8, Output: 40320
 """
 
 

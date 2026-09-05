@@ -27,16 +27,11 @@ Implement the solution as described above.
 
 ---
 
-## Examples
-
-See problem description.
-
----
-
 ## Hints (use only if stuck)
 
-1. Use dict comprehension: {i: i*i for i in range(1, n+1)}
-2. Or use loop with d[i] = i*i
+1. Refer to the problem description
+2. Consider using appropriate data structures
+3. Test with multiple inputs
 
 ---
 

@@ -17,7 +17,7 @@
 
 ## Objective
 
-Define a class with getString and printString methods. getString accepts string input, printString prints in uppercase.
+Define a class with getString and printString methods. printString prints in uppercase.
 
 ---
 
@@ -27,17 +27,11 @@ Implement the solution as described above.
 
 ---
 
-## Examples
-
-See problem description.
-
----
-
 ## Hints (use only if stuck)
 
-1. Use __init__
-2. Store string in self.s
-3. Use str.upper() in printString
+1. Refer to the problem description
+2. Consider using appropriate data structures
+3. Test with multiple inputs
 
 ---
 
