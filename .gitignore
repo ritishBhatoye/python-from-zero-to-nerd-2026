@@ -31,10 +31,14 @@ Thumbs.db
 .coverage
 htmlcov/
 .mypy_cache/
-
+repo-mission.txt
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
 # Environment variables
 .env
 .env.local
+
+.last_push_time
+.auto_commit_push.log
+.auto_commit_push.sh
