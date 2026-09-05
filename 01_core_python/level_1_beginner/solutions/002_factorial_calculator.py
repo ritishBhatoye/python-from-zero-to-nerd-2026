@@ -3,11 +3,15 @@
 Compute the factorial of a given number. Input: 8, Output: 40320
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+n = int(input("Enter the number :- "))
+
+
+def fac(x):
+    if x == 1:
+        return 1
+
+    x * fac(x - 1)
