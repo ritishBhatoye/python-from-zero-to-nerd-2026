@@ -1,138 +1,150 @@
-{
-    "name": "Python-Learning",
-    "icon": "default",
-    "settings": {
-        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
-        "python.terminal.activateEnvironment": true,
+import json
+from pathlib import Path
 
-        "python.analysis.typeCheckingMode": "basic",
-        "python.analysis.autoImportCompletions": true,
-        "python.analysis.inlayHints.functionReturnTypes": true,
-        "python.analysis.inlayHints.variableTypes": true,
+settings = {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": True,
 
-        "python.testing.pytestEnabled": true,
-        "python.testing.unittestEnabled": false,
-        "python.testing.pytestArgs": [
-            "."
-        ],
-        "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": True,
+    "python.analysis.inlayHints.functionReturnTypes": True,
+    "python.analysis.inlayHints.variableTypes": True,
 
-        "[python]": {
-            "editor.defaultFormatter": "charliermarsh.ruff",
-            "editor.formatOnSave": true,
-            "editor.codeActionsOnSave": {
-                "source.organizeImports": "explicit",
-                "source.fixAll": "explicit"
-            },
-            "editor.rulers": [
-                88,
-                120
-            ],
-            "editor.tabSize": 4,
-            "editor.insertSpaces": true
+    "python.testing.pytestEnabled": True,
+    "python.testing.unittestEnabled": False,
+    "python.testing.pytestArgs": ["."],
+    "python.testing.autoTestDiscoverOnSaveEnabled": True,
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": True,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
         },
-
-        "ruff.enable": true,
-        "ruff.lint.enable": true,
-        "ruff.format.args": [
-            "--line-length=88"
-        ],
-        "ruff.lint.args": [
-            "--select=E,F,W,I,N,UP,B,A,C4,SIM,PYI,RUF"
-        ],
-
-        "autoDocstring.docstringFormat": "google",
-        "autoDocstring.startOnNewLine": false,
-
-        "files.exclude": {
-            "**/__pycache__": true,
-            "**/*.pyc": true,
-            "**/.pytest_cache": true,
-            "**/.ruff_cache": true,
-            "**/.mypy_cache": true,
-            "**/.venv": false
-        },
-
-        "files.watcherExclude": {
-            "**/__pycache__": true,
-            "**/.pytest_cache": true,
-            "**/.ruff_cache": true,
-            "**/.mypy_cache": true
-        },
-
-        "editor.minimap.enabled": true,
-        "editor.minimap.maxColumn": 88,
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": true,
-        "editor.inlayHints.enabled": "on",
-
-        "terminal.integrated.defaultProfile.windows": "PowerShell",
-
-        "git.autofetch": true,
-        "git.confirmSync": false,
-        "git.enableSmartCommit": true,
-
-        "gitlens.codeLens.enabled": true,
-        "gitlens.currentLine.enabled": true,
-
-        "markdown.extension.toc.levels": "2..6",
-        "markdown.extension.list.indentationSize": "inherit",
-
-        "markdownlint.config": {
-            "MD013": false,
-            "MD033": false,
-            "MD041": false
-        },
-
-        "cSpell.words": [
-            "pytest",
-            "pylance",
-            "autodocstring",
-            "mypy",
-            "dataclasses",
-            "datetime",
-            "stdlib",
-            "pythonic",
-            "docstring",
-            "docstrings",
-            "REPL",
-            "venv",
-            "pyproject",
-            "ritishbhatoye"
-        ],
-
-        "cSpell.enableFiletypes": [
-            "python",
-            "markdown",
-            "plaintext"
-        ],
-
-        "notebook.output.textLineLimit": 50,
-
-        "notebook.cellToolbarLocation": {
-            "default": "right",
-            "jupyter-notebook": "left"
-        }
+        "editor.rulers": [88, 120],
+        "editor.tabSize": 4,
+        "editor.insertSpaces": True
     },
-    "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "ms-python.debugpy",
-        "charliermarsh.ruff",
-        "tamasfe.even-better-toml",
-        "njpwerner.autodocstring",
-        "donjayamanne.python-environment-manager",
-        "matangover.mypy",
-        "ms-toolsai.jupyter",
-        "ms-toolsai.jupyter-keymap",
-        "ms-toolsai.jupyter-renderers",
-        "littlefoxteam.vscode-python-test-adapter",
-        "hbenl.vscode-test-explorer",
-        "eamodio.gitlens",
-        "streetsidesoftware.code-spell-checker",
-        "editorconfig.editorconfig",
-        "yzhang.markdown-all-in-one",
-        "bierner.markdown-emoji",
-        "davidanson.vscode-markdownlint"
-    ]
+
+    "ruff.enable": True,
+    "ruff.lint.enable": True,
+    "ruff.format.args": ["--line-length=88"],
+    "ruff.lint.args": ["--select=E,F,W,I,N,UP,B,A,C4,SIM,PYI,RUF"],
+
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.startOnNewLine": False,
+
+    "files.exclude": {
+        "**/__pycache__": True,
+        "**/*.pyc": True,
+        "**/.pytest_cache": True,
+        "**/.ruff_cache": True,
+        "**/.mypy_cache": True,
+        "**/.venv": False
+    },
+
+    "files.watcherExclude": {
+        "**/__pycache__": True,
+        "**/.pytest_cache": True,
+        "**/.ruff_cache": True,
+        "**/.mypy_cache": True
+    },
+
+    "editor.minimap.enabled": True,
+    "editor.minimap.maxColumn": 88,
+    "editor.bracketPairColorization.enabled": True,
+    "editor.guides.bracketPairs": True,
+    "editor.inlayHints.enabled": "on",
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    "git.autofetch": True,
+    "git.confirmSync": False,
+    "git.enableSmartCommit": True,
+
+    "gitlens.codeLens.enabled": True,
+    "gitlens.currentLine.enabled": True,
+
+    "markdown.extension.toc.levels": "2..6",
+    "markdown.extension.list.indentationSize": "inherit",
+
+    "markdownlint.config": {
+        "MD013": False,
+        "MD033": False,
+        "MD041": False
+    },
+
+    "cSpell.words": [
+        "pytest", "pylance", "autodocstring", "mypy", "dataclasses",
+        "datetime", "stdlib", "pythonic", "docstring", "docstrings",
+        "REPL", "venv", "pyproject", "ritishbhatoye"
+    ],
+
+    "cSpell.enableFiletypes": ["python", "markdown", "plaintext"],
+
+    "notebook.output.textLineLimit": 50,
+
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
 }
+
+# This is the native VS Code .code-profile representation:
+# settings is a JSON string containing a "settings" JSON string.
+profile_settings = json.dumps(
+    {"settings": json.dumps(settings, indent=4)},
+    separators=(",", ":")
+)
+
+extension_names = {
+    "ms-python.python": "Python",
+    "ms-python.vscode-pylance": "Pylance",
+    "ms-python.debugpy": "Python Debugger",
+    "charliermarsh.ruff": "Ruff",
+    "tamasfe.even-better-toml": "Even Better TOML",
+    "njpwerner.autodocstring": "autoDocstring - Python Docstring Generator",
+    "donjayamanne.python-environment-manager": "Python Environment Manager",
+    "matangover.mypy": "Mypy Type Checker",
+    "ms-toolsai.jupyter": "Jupyter",
+    "ms-toolsai.jupyter-keymap": "Jupyter Keymap",
+    "ms-toolsai.jupyter-renderers": "Jupyter Notebook Renderers",
+    "littlefoxteam.vscode-python-test-adapter": "Python Test Explorer for Visual Studio Code",
+    "hbenl.vscode-test-explorer": "Test Explorer UI",
+    "eamodio.gitlens": "GitLens — Git supercharged",
+    "streetsidesoftware.code-spell-checker": "Code Spell Checker",
+    "editorconfig.editorconfig": "EditorConfig for VS Code",
+    "yzhang.markdown-all-in-one": "Markdown All in One",
+    "bierner.markdown-emoji": "Markdown Emoji",
+    "davidanson.vscode-markdownlint": "markdownlint"
+}
+
+extensions = [
+    {
+        "identifier": {"id": extension_id},
+        "displayName": display_name
+    }
+    for extension_id, display_name in extension_names.items()
+]
+
+profile = {
+    "name": "Python-Learning",
+    "settings": profile_settings,
+    "extensions": json.dumps(extensions, separators=(",", ":"))
+}
+
+out = Path("/mnt/data/Python-Learning.code-profile")
+out.write_text(json.dumps(profile, indent=4, ensure_ascii=False) + "\n", encoding="utf-8")
+
+# Validate the outer file and the two embedded JSON strings.
+loaded = json.loads(out.read_text(encoding="utf-8"))
+json.loads(loaded["settings"])
+json.loads(loaded["settings"])["settings"]
+json.loads(loaded["extensions"])
+
+print(f"Created: {out}")
+print(f"Size: {out.stat().st_size} bytes")
+print("Outer JSON: valid")
+print("Embedded settings JSON: valid")
+print("Embedded extensions JSON: valid")
