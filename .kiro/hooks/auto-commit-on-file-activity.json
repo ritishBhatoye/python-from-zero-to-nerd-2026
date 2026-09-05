@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Auto Commit on File Activity",
+      "trigger": "PostFileSave",
+      "description": "Automatically triggers auto_commit_push.sh whenever a file is saved in the repository",
+      "action": {
+        "type": "command",
+        "command": "cd /Users/ritishbhatoye/Documents/python-from-zero-to-nerd-2026 && nohup ./auto_commit_push.sh > /dev/null 2>&1 &",
+        "timeout": 5
+      }
+    }
+  ]
+}
