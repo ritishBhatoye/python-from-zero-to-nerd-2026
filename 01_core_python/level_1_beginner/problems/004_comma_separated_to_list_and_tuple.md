@@ -1,8 +1,8 @@
-# Exercise 001 — Divisible by 7 not 5
+# Exercise 004 — Comma Separated to List and Tuple
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q1  
+**Source:** zhiwehu/Python-programming-exercises Q4  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -17,7 +17,7 @@
 
 ## Objective
 
-Find all numbers divisible by 7 but not a multiple of 5, between 2000 and 3200 (both included).
+Accept comma-separated numbers from console and generate a list and a tuple with those numbers.
 
 ---
 
@@ -35,16 +35,16 @@ See problem description.
 
 ## Hints (use only if stuck)
 
-1. Use range(2000, 3201)
-2. Use modulo % operator
-3. Check: n % 7 == 0 and n % 5 != 0
+1. Use input().split(',')
+2. Convert to integers with map(int, ...)
+3. Create tuple from list
 
 ---
 
 ## Test Command
 
 ```bash
-pytest 01_core_python/level_1_beginner/tests/test_001_divisible_by_7_not_5.py -v
+pytest 01_core_python/level_1_beginner/tests/test_004_comma_separated_to_list_and_tuple.py -v
 ```
 
 ---
@@ -52,7 +52,7 @@ pytest 01_core_python/level_1_beginner/tests/test_001_divisible_by_7_not_5.py -v
 ## Implementation
 
 ```
-01_core_python/level_1_beginner/solutions/001_divisible_by_7_not_5.py
+01_core_python/level_1_beginner/solutions/004_comma_separated_to_list_and_tuple.py
 ```
 
 ---

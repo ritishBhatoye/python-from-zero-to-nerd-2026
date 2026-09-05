@@ -1,8 +1,8 @@
-# Exercise 001 — Divisible by 7 not 5
+# Exercise 002 — Factorial Calculator
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q1  
+**Source:** zhiwehu/Python-programming-exercises Q2  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -17,7 +17,7 @@
 
 ## Objective
 
-Find all numbers divisible by 7 but not a multiple of 5, between 2000 and 3200 (both included).
+Compute the factorial of a given number.
 
 ---
 
@@ -35,16 +35,16 @@ See problem description.
 
 ## Hints (use only if stuck)
 
-1. Use range(2000, 3201)
-2. Use modulo % operator
-3. Check: n % 7 == 0 and n % 5 != 0
+1. Use recursion or loop
+2. Base case: factorial(0) = 1
+3. Recursive: n * factorial(n-1)
 
 ---
 
 ## Test Command
 
 ```bash
-pytest 01_core_python/level_1_beginner/tests/test_001_divisible_by_7_not_5.py -v
+pytest 01_core_python/level_1_beginner/tests/test_002_factorial_calculator.py -v
 ```
 
 ---
@@ -52,7 +52,7 @@ pytest 01_core_python/level_1_beginner/tests/test_001_divisible_by_7_not_5.py -v
 ## Implementation
 
 ```
-01_core_python/level_1_beginner/solutions/001_divisible_by_7_not_5.py
+01_core_python/level_1_beginner/solutions/002_factorial_calculator.py
 ```
 
 ---
