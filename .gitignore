@@ -39,6 +39,12 @@ repo-mission.txt
 .env
 .env.local
 
+# Auto-commit and backup files
 .last_push_time
-.auto_commit_push.log
+auto_commit_push.log
+auto_commit_push.sh
 .auto_commit_push.sh
+.auto_commit_push.log
+.backup/
+.kiro/
+repo-mission.txt
