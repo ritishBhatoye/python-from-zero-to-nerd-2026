@@ -1,0 +1,13 @@
+"""Exercise 053 — Rectangle Area.
+
+Define Rectangle class that can compute area.
+"""
+
+
+# Your implementation here
+pass
+
+
+if __name__ == "__main__":
+    # Test your solution
+    print("Implement me!")
