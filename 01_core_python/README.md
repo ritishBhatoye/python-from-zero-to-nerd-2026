@@ -11,7 +11,7 @@ Fundamental Python concepts. Perfect for someone who has just completed an intro
 
 **Topics:** Variables, loops, functions, basic data structures, simple classes
 
-**Exercise Count:** ~70 exercises
+**Exercise Count:** 109 exercises
 
 **Start here if:** You're new to Python or need to solidify basics
 
@@ -24,7 +24,7 @@ More complex problems requiring multiple concepts. For those with basic Python k
 
 **Topics:** List comprehensions, file I/O, string processing, algorithms, functional programming
 
-**Exercise Count:** ~60 exercises
+**Exercise Count:** 25 exercises
 
 **Start here if:** You're comfortable with Level 1 concepts
 
@@ -37,7 +37,7 @@ Complex problems using standard library, algorithms, and advanced techniques.
 
 **Topics:** OOP, generators, decorators, regex, exception handling, recursion, algorithms
 
-**Exercise Count:** ~50 exercises
+**Exercise Count:** 56 exercises
 
 **Start here if:** You've mastered Level 1 & 2
 
@@ -70,11 +70,11 @@ level_X_name/
 
 ## 🔄 Migration Status
 
-- ✅ Level 1: 70 exercises (collection + originals)
-- ✅ Level 2: 60 exercises (collection + originals)
-- ✅ Level 3: 50 exercises (collection + originals)
+- ✅ Level 1: 109 exercises (collection + originals)
+- ✅ Level 2: 25 exercises (collection + originals)
+- ✅ Level 3: 56 exercises (collection + originals)
 
-**Total:** ~180 exercises across all levels
+**Total:** 190 exercises across all levels
 
 ---
 

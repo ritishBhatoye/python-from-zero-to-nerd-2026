@@ -19,11 +19,11 @@ These exercises are for someone who has just completed an introductory Python co
 ## Exercise List
 
 ### Collection Exercises (zhiwehu 100+)
-- 001-032: Core beginner concepts from the collection
-- 033-041: Basic data structures
+- 001-024: Core beginner concepts from the collection
+- 025-041: Basic data structures and functions
 
 ### Original Curriculum
-- Practical exercises integrated throughout
+- 101-188: Your custom practical exercises
 
 ## Progression
 
