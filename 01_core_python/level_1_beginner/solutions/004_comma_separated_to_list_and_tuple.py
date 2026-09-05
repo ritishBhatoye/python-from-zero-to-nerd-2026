@@ -7,3 +7,18 @@ Accept comma-separated numbers and generate a list and a tuple.
 pass
 
 numbers = input("Enter the numbers :- ")
+
+ansList = []
+ansTuple = ()
+
+for n in numbers:
+    if n == ",":
+        continue
+    else:
+        ansList.append(n)
+
+
+ansTuple = tuple(ansList)
+
+print(ansList)
+print(ansTuple)
