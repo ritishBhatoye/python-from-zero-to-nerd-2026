@@ -15,3 +15,6 @@ def fac(x):
         return 1
 
     x * fac(x - 1)
+
+
+print("Factorial of ", n, " = ", fac(n))
