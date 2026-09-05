@@ -3,11 +3,5 @@
 Accept comma-separated numbers and generate a list and a tuple.
 """
 
-
 # Your implementation here
 pass
-
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
