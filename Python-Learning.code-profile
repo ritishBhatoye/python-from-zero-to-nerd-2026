@@ -1,20 +1,13 @@
-import json
-from pathlib import Path
-
-settings = {
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
     "python.terminal.activateEnvironment": True,
-
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": True,
     "python.analysis.inlayHints.functionReturnTypes": True,
     "python.analysis.inlayHints.variableTypes": True,
-
     "python.testing.pytestEnabled": True,
     "python.testing.unittestEnabled": False,
     "python.testing.pytestArgs": ["."],
     "python.testing.autoTestDiscoverOnSaveEnabled": True,
-
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": True,
@@ -26,15 +19,12 @@ settings = {
         "editor.tabSize": 4,
         "editor.insertSpaces": True
     },
-
     "ruff.enable": True,
     "ruff.lint.enable": True,
     "ruff.format.args": ["--line-length=88"],
     "ruff.lint.args": ["--select=E,F,W,I,N,UP,B,A,C4,SIM,PYI,RUF"],
-
     "autoDocstring.docstringFormat": "google",
     "autoDocstring.startOnNewLine": False,
-
     "files.exclude": {
         "**/__pycache__": True,
         "**/*.pyc": True,
@@ -43,108 +33,87 @@ settings = {
         "**/.mypy_cache": True,
         "**/.venv": False
     },
-
     "files.watcherExclude": {
         "**/__pycache__": True,
         "**/.pytest_cache": True,
         "**/.ruff_cache": True,
         "**/.mypy_cache": True
     },
-
     "editor.minimap.enabled": True,
     "editor.minimap.maxColumn": 88,
     "editor.bracketPairColorization.enabled": True,
     "editor.guides.bracketPairs": True,
     "editor.inlayHints.enabled": "on",
-
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-
     "git.autofetch": True,
     "git.confirmSync": False,
     "git.enableSmartCommit": True,
-
     "gitlens.codeLens.enabled": True,
     "gitlens.currentLine.enabled": True,
-
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.list.indentationSize": "inherit",
-
     "markdownlint.config": {
         "MD013": False,
         "MD033": False,
         "MD041": False
     },
-
     "cSpell.words": [
         "pytest", "pylance", "autodocstring", "mypy", "dataclasses",
         "datetime", "stdlib", "pythonic", "docstring", "docstrings",
         "REPL", "venv", "pyproject", "ritishbhatoye"
     ],
-
     "cSpell.enableFiletypes": ["python", "markdown", "plaintext"],
-
     "notebook.output.textLineLimit": 50,
-
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     }
-}
 
-# This is the native VS Code .code-profile representation:
-# settings is a JSON string containing a "settings" JSON string.
-profile_settings = json.dumps(
-    {"settings": json.dumps(settings, indent=4)},
-    separators=(",", ":")
-)
 
-extension_names = {
-    "ms-python.python": "Python",
-    "ms-python.vscode-pylance": "Pylance",
-    "ms-python.debugpy": "Python Debugger",
-    "charliermarsh.ruff": "Ruff",
-    "tamasfe.even-better-toml": "Even Better TOML",
-    "njpwerner.autodocstring": "autoDocstring - Python Docstring Generator",
-    "donjayamanne.python-environment-manager": "Python Environment Manager",
-    "matangover.mypy": "Mypy Type Checker",
-    "ms-toolsai.jupyter": "Jupyter",
-    "ms-toolsai.jupyter-keymap": "Jupyter Keymap",
-    "ms-toolsai.jupyter-renderers": "Jupyter Notebook Renderers",
-    "littlefoxteam.vscode-python-test-adapter": "Python Test Explorer for Visual Studio Code",
-    "hbenl.vscode-test-explorer": "Test Explorer UI",
-    "eamodio.gitlens": "GitLens — Git supercharged",
-    "streetsidesoftware.code-spell-checker": "Code Spell Checker",
-    "editorconfig.editorconfig": "EditorConfig for VS Code",
-    "yzhang.markdown-all-in-one": "Markdown All in One",
-    "bierner.markdown-emoji": "Markdown Emoji",
-    "davidanson.vscode-markdownlint": "markdownlint"
-}
+extension_names = [
+    ("ms-python.python", "Python"),
+    ("ms-python.vscode-pylance", "Pylance"),
+    ("ms-python.debugpy", "Python Debugger"),
+    ("charliermarsh.ruff", "Ruff"),
+    ("tamasfe.even-better-toml", "Even Better TOML"),
+    ("njpwerner.autodocstring", "autoDocstring - Python Docstring Generator"),
+    ("donjayamanne.python-environment-manager", "Python Environment Manager"),
+    ("matangover.mypy", "Mypy Type Checker"),
+    ("ms-toolsai.jupyter", "Jupyter"),
+    ("ms-toolsai.jupyter-keymap", "Jupyter Keymap"),
+    ("ms-toolsai.jupyter-renderers", "Jupyter Notebook Renderers"),
+    ("littlefoxteam.vscode-python-test-adapter", "Python Test Explorer"),
+    ("hbenl.vscode-test-explorer", "Test Explorer UI"),
+    ("eamodio.gitlens", "GitLens — Git supercharged"),
+    ("streetsidesoftware.code-spell-checker", "Code Spell Checker"),
+    ("editorconfig.editorconfig", "EditorConfig for VS Code"),
+    ("yzhang.markdown-all-in-one", "Markdown All in One"),
+    ("bierner.markdown-emoji", "Markdown Emoji"),
+    ("davidanson.vscode-markdownlint", "markdownlint")
+]
 
 extensions = [
-    {
-        "identifier": {"id": extension_id},
-        "displayName": display_name
-    }
-    for extension_id, display_name in extension_names.items()
+    {"identifier": {"id": ext_id}, "displayName": display_name}
+    for ext_id, display_name in extension_names
 ]
+
+# VS Code's exported .code-profile format stores these sections as JSON strings.
+profile_settings = json.dumps(
+    {"settings": json.dumps(settings, indent=4, ensure_ascii=False)},
+    ensure_ascii=False
+)
 
 profile = {
     "name": "Python-Learning",
     "settings": profile_settings,
-    "extensions": json.dumps(extensions, separators=(",", ":"))
+    "extensions": json.dumps(extensions, ensure_ascii=False)
 }
 
-out = Path("/mnt/data/Python-Learning.code-profile")
-out.write_text(json.dumps(profile, indent=4, ensure_ascii=False) + "\n", encoding="utf-8")
+path = Path("/mnt/data/Python-Learning.code-profile")
+path.write_text(
+    json.dumps(profile, ensure_ascii=False, separators=(",", ":")),
+    encoding="utf-8"
+)
 
-# Validate the outer file and the two embedded JSON strings.
-loaded = json.loads(out.read_text(encoding="utf-8"))
-json.loads(loaded["settings"])
-json.loads(loaded["settings"])["settings"]
-json.loads(loaded["extensions"])
-
-print(f"Created: {out}")
-print(f"Size: {out.stat().st_size} bytes")
-print("Outer JSON: valid")
-print("Embedded settings JSON: valid")
-print("Embedded extensions JSON: valid")
+print(f"Created: {path}")
+print(f"Size: {path.stat().st_size:,} bytes")
