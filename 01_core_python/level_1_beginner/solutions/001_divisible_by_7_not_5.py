@@ -4,7 +4,6 @@ Find all numbers divisible by 7 but not a multiple of 5, between 2000 and 3200 (
 """
 
 # Your implementation here
-pass
 
 ans = []
 
