@@ -2,7 +2,7 @@
     "name": "Python Learning - Zero to Nerd",
     "icon": "default",
     "settings": {
-        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
         "python.terminal.activateEnvironment": true,
 
         "python.analysis.typeCheckingMode": "basic",
@@ -66,7 +66,7 @@
         "editor.guides.bracketPairs": true,
         "editor.inlayHints.enabled": "on",
 
-        "terminal.integrated.defaultProfile.osx": "zsh",
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
 
         "git.autofetch": true,
         "git.confirmSync": false,
@@ -126,7 +126,6 @@
         "ms-toolsai.jupyter",
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
-        "ms-python.black-formatter",
         "littlefoxteam.vscode-python-test-adapter",
         "hbenl.vscode-test-explorer",
         "eamodio.gitlens",
@@ -134,6 +133,6 @@
         "editorconfig.editorconfig",
         "yzhang.markdown-all-in-one",
         "bierner.markdown-emoji",
-        "davidanson.markdownlint"
+        "davidanson.vscode-markdownlint"
     ]
 }
