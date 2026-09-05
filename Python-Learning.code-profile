@@ -1,5 +1,5 @@
 {
-    "name": "Python Learning - Zero to Nerd",
+    "name": "Python-Learning",
     "icon": "default",
     "settings": {
         "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
