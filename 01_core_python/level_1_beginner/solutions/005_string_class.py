@@ -9,7 +9,7 @@ pass
 
 class String:
     def getString(self):
-        self.s = input("Enter the string")
+        self.s = input("Enter the string :- ")
 
     def printString(self):
         print(self.s.upper())
