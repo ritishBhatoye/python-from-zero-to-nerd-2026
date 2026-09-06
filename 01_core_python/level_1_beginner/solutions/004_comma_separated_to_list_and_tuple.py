@@ -11,12 +11,8 @@ numbers = input("Enter the numbers :- ")
 ansList = []
 ansTuple = ()
 
-for n in numbers:
-    if n == "," or n.isalpha():
-        continue
-    else:
-        ansList.append(n)
 
+ansList = numbers.split(",")
 
 ansTuple = tuple(ansList)
 
