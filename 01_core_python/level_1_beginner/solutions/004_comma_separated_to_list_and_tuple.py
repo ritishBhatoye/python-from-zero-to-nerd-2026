@@ -12,10 +12,11 @@ ansList = []
 ansTuple = ()
 
 for n in numbers:
-    if n == ",":
+    if n == "," or n.isalpha():
         continue
     else:
-        ansList.append(n)
+        if n + 1 != "," or n != 0:
+            ansList.append(n)
 
 
 ansTuple = tuple(ansList)
