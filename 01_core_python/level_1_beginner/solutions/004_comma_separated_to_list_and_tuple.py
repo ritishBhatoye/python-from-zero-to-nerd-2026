@@ -15,8 +15,7 @@ for n in numbers:
     if n == "," or n.isalpha():
         continue
     else:
-        if n + 1 != "," or n != 0:
-            ansList.append(n)
+        ansList.append(n)
 
 
 ansTuple = tuple(ansList)
