@@ -3,11 +3,14 @@
 Write a method which can calculate square value of a number.
 """
 
-
 # Your implementation here
 pass
 
+number = int(input("Enter the number to find square :- "))
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+
+def square(x):
+    return x * x
+
+
+print("Square of ", number, " :- ", square(number))
