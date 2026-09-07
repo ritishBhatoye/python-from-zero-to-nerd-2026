@@ -28,10 +28,7 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
-```python
-# See objective above for expected behavior
-```
+**See objective above for expected behavior and test cases.**
 
 ---
 

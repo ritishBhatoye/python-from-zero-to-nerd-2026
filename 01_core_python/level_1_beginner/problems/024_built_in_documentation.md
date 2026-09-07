@@ -28,9 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
+**Example:**
 ```python
-# See objective above for expected behavior
+print(abs.__doc__)  # Prints documentation for abs()
+print(my_function.__doc__)  # Prints your function's docstring
 ```
 
 ---

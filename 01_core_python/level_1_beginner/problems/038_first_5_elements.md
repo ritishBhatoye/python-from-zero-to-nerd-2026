@@ -28,10 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
-```python
-# See objective above for expected behavior
-```
+**Input:** `lst=[1,2,3,4,5], n=3`  
+**Output:** `[1, 2, 3]`
+
+**Input:** `lst=[10,20,30], n=2`  
+**Output:** `[10, 20]`
 
 ---
 

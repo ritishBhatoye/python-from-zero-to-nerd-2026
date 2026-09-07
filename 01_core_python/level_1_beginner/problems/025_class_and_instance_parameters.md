@@ -28,9 +28,17 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
+**Example:**
 ```python
-# See objective above for expected behavior
+class Person:
+    name = "Person"  # Class attribute
+    
+    def __init__(self, name):
+        self.name = name  # Instance attribute
+
+p = Person("Alice")
+print(Person.name)  # "Person"
+print(p.name)       # "Alice"
 ```
 
 ---

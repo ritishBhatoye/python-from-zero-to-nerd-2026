@@ -28,9 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
+**Example:**
 ```python
-# See objective above for expected behavior
+d = {1: 1, 2: 4, 3: 9}
+# Print: 1, 2, 3 (keys only)
 ```
 
 ---

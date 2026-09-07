@@ -28,10 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
-```python
-# See objective above for expected behavior
-```
+**Input:** `s1="Hello", s2="World"`  
+**Output:** `"HelloWorld"`
+
+**Input:** `s1="Python", s2="3"`  
+**Output:** `"Python3"`
 
 ---
 

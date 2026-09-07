@@ -28,10 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
-```python
-# See objective above for expected behavior
-```
+**Input:** `s1="3", s2="4"`  
+**Output:** `7`
+
+**Input:** `s1="10", s2="25"`  
+**Output:** `35`
 
 ---
 
