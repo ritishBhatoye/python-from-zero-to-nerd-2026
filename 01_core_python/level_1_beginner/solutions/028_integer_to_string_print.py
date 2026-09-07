@@ -8,8 +8,8 @@ pass
 
 
 def toString(a):
-    str(a)
     print("Number ", a)
+    return str(a)
 
 
 a = int(input("Enter a number : "))

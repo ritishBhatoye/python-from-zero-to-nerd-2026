@@ -3,7 +3,6 @@
 Define a function that receives two integers in string form and computes their sum.
 """
 
-
 # Your implementation here
 pass
 
