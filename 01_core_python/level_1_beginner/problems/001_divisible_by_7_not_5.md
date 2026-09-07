@@ -26,6 +26,19 @@ Implement the solution as described above.
 
 ---
 
+## Examples
+
+**Output:**
+```
+2002,2009,2016,2023,2037,2044,2051,2058,2072,2079,...,3192,3199
+```
+
+The output should be a comma-separated string of all numbers between 2000-3200 that are:
+- Divisible by 7: `n % 7 == 0`
+- NOT divisible by 5: `n % 5 != 0`
+
+---
+
 ## Hints (use only if stuck)
 
 1. Refer to the problem description

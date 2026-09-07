@@ -26,6 +26,15 @@ Implement the solution as described above.
 
 ---
 
+## Examples
+
+**Example usage:**
+```python
+# See objective above for expected behavior
+```
+
+---
+
 ## Hints (use only if stuck)
 
 1. Refer to the problem description

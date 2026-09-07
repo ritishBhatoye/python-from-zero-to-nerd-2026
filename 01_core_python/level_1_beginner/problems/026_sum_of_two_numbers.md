@@ -26,6 +26,13 @@ Implement the solution as described above.
 
 ---
 
+## Examples
+
+**Input:** `a=5, b=3`  
+**Output:** `8`
+
+---
+
 ## Hints (use only if stuck)
 
 1. Refer to the problem description

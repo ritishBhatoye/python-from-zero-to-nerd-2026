@@ -26,6 +26,16 @@ Implement the solution as described above.
 
 ---
 
+## Examples
+
+**Input:** `4`  
+**Output:** `It is an even number`
+
+**Input:** `7`  
+**Output:** `It is an odd number`
+
+---
+
 ## Hints (use only if stuck)
 
 1. Refer to the problem description
