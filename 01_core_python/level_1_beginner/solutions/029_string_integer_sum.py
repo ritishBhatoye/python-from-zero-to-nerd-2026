@@ -8,7 +8,7 @@ pass
 
 
 def sum(a, b):
-    return a + b
+    return int(a) + int(b)
 
 
 a = input("Enter first number : ")
