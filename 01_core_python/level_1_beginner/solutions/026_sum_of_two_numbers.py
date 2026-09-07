@@ -3,11 +3,15 @@
 Define a function which can compute the sum of two numbers.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def sum(a, b):
+    return a + b
+
+
+a = int(input("Enter the first number :- "))
+b = int(input("Enter the second number :-"))
+
+print("SUM :- ", sum(a, b))
