@@ -14,5 +14,5 @@ def toString(a):
 a = int(input("Enter the number : "))
 
 print("Type of ", a, type(a))
-toString(a)
+a = toString(a)
 print("Type of ", a, " after conversion ", type(a))
