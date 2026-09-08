@@ -3,15 +3,11 @@
 Generate list of squares (1-20) and print all except first 5.
 """
 
-# Your implementation here
-pass
-
-
 ans = []
 
 for i in range(1, 21):
-    ans = i * i
+    ans.append(i * i)
 
 
-for i in ans:
+for i in range(len(ans)):
     print(ans[i])
