@@ -28,7 +28,12 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `Hello world!`  
+**Output:**
+```
+UPPER CASE 1
+LOWER CASE 9
+```
 
 ---
 

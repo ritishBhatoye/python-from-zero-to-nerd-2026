@@ -28,7 +28,17 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:**
+```
+D 300
+D 300
+W 200
+D 100
+```
+**Output:** `500`
+
+D = Deposit, W = Withdrawal  
+Net: 300 + 300 - 200 + 100 = 500
 
 ---
 

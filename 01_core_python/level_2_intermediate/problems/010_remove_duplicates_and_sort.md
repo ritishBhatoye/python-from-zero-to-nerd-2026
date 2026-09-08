@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `hello world and practice makes perfect and hello world again`  
+**Output:** `again and hello makes perfect practice world`
+
+Unique words sorted alphabetically
 
 ---
 

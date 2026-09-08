@@ -28,7 +28,12 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `hello world! 123`  
+**Output:**
+```
+LETTERS 10
+DIGITS 3
+```
 
 ---
 

@@ -28,7 +28,7 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**See objective and requirements for expected behavior.**
 
 ---
 

@@ -28,7 +28,16 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:**
+```
+Hello world
+Practice makes perfect
+```
+**Output:**
+```
+HELLO WORLD
+PRACTICE MAKES PERFECT
+```
 
 ---
 

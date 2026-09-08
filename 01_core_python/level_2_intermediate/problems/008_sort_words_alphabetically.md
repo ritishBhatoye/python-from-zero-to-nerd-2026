@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `without,hello,bag,world`  
+**Output:** `bag,hello,without,world`
+
+Words sorted alphabetically
 
 ---
 

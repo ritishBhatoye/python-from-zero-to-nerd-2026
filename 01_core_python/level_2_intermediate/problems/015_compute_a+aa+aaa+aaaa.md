@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `9`  
+**Output:** `11106`
+
+Calculation: 9 + 99 + 999 + 9999 = 11106
 
 ---
 

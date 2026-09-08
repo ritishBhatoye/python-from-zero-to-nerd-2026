@@ -28,7 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective above for expected behavior and test cases.**
+**Input:** `0100,0011,1010,1001`  
+**Output:** `1010`
+
+0100 = 4 (not divisible by 5)  
+1010 = 10 (divisible by 5) ✓
 
 ---
 
