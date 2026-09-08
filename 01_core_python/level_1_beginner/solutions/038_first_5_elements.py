@@ -13,4 +13,5 @@ for n in range(1, 21):
     ans[n] = n * n
 
 
-print(ans)
+for i in range(1, 6):
+    print(ans[i])
