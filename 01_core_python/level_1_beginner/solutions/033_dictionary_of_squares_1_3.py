@@ -3,11 +3,13 @@
 Print a dictionary where keys are 1-3 and values are squares of keys.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+n = int(input("Enter the number :- "))
+
+ans = {}
+ans[n] = n * n
+
+print(ans)
