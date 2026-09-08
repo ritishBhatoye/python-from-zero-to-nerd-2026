@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q12  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Find numbers between 1000-3000 where each digit is even.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`  
+**Output:** `[2, 4, 6, 8, 10]`
 
 ---
 

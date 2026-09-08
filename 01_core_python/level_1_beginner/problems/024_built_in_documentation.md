@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q24  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Print documentation for Python built-in functions and add documentation to your 
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Example:**
+```python
+print(abs.__doc__)  # Prints documentation for abs()
+print(my_function.__doc__)  # Prints your function's docstring
+```
 
 ---
 

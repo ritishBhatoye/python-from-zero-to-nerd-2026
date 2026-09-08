@@ -3,11 +3,14 @@
 Find all numbers divisible by 7 but not a multiple of 5, between 2000 and 3200 (both included).
 """
 
-
 # Your implementation here
-pass
+
+ans = []
+
+for n in range(2000, 3201):
+    if n % 7 == 0 and n % 5 != 0:
+        ans.append(n)
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+for num in ans:
+    print(num)

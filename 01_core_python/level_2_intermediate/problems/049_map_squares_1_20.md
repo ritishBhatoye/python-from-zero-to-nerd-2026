@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q49  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Use map() to square numbers between 1-20.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `25`
 
 ---
 

@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q13  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,17 @@ Calculate number of letters and digits in a sentence.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `hello world! 123`  
+**Output:**
+```
+LETTERS 10
+DIGITS 3
+```
 
 ---
 

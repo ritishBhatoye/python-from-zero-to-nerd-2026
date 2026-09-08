@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q65  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Compute f(n)=f(n-1)+100 where f(0)=0.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q5  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Define a class with getString and printString methods. printString prints in upp
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

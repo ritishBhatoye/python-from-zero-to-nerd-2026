@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q32  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Print 'It is an even number' or 'It is an odd number' based on input.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `4`  
+**Output:** `It is an even number`
+
+**Input:** `7`  
+**Output:** `It is an odd number`
 
 ---
 

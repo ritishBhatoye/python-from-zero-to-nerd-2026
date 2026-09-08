@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q20  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Create generator that yields numbers divisible by 7 between 0 and n.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

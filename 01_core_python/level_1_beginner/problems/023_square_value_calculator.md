@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q23  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Write a method which can calculate square value of a number.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `25`
 
 ---
 

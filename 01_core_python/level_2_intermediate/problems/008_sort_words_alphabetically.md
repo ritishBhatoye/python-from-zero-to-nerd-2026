@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q8  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,15 @@ Sort comma-separated words alphabetically.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `without,hello,bag,world`  
+**Output:** `bag,hello,without,world`
+
+Words sorted alphabetically
 
 ---
 

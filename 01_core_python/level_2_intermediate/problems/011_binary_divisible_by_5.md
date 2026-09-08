@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q11  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Check which 4-digit binary numbers are divisible by 5.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `0100,0011,1010,1001`  
+**Output:** `1010`
+
+0100 = 4 (not divisible by 5)  
+1010 = 10 (divisible by 5) ✓
 
 ---
 

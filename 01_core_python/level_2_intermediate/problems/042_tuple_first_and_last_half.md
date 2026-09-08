@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q42  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ With tuple (1,2,3,4,5,6,7,8,9,10), print first half and last half separately.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

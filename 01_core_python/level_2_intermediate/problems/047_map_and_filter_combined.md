@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q47  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Use map() and filter() to square even numbers in [1,2,3,4,5,6,7,8,9,10].
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`  
+**Output:** `[2, 4, 6, 8, 10]`
 
 ---
 

@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q17  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,22 @@ Compute net amount from transaction log (D=deposit, W=withdrawal).
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:**
+```
+D 300
+D 300
+W 200
+D 100
+```
+**Output:** `500`
+
+D = Deposit, W = Withdrawal  
+Net: 300 + 300 - 200 + 100 = 500
 
 ---
 

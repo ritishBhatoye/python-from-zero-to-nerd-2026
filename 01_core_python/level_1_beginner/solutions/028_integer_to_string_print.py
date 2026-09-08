@@ -3,11 +3,18 @@
 Define a function that converts an integer into a string and prints it.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def toString(a):
+    print("Number ", a)
+    return str(a)
+
+
+a = int(input("Enter a number : "))
+print("Type of ", a, " before conversion to string ", type(a))
+
+a = toString(a)
+
+print("Type of ", a, " after conversion to string ", type(a))

@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q83  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Print running time of '1+1' executed 100 times.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

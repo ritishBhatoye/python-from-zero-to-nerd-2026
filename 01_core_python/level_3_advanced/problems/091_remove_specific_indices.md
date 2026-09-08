@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q91  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Remove elements at indices 0,4,5 using enumerate.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

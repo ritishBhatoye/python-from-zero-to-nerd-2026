@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q14  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,17 @@ Count uppercase and lowercase letters in a sentence.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `Hello world!`  
+**Output:**
+```
+UPPER CASE 1
+LOWER CASE 9
+```
 
 ---
 

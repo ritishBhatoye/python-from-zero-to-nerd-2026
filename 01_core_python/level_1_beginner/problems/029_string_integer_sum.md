@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q29  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Define a function that receives two integers in string form and computes their s
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `s1="3", s2="4"`  
+**Output:** `7`
+
+**Input:** `s1="10", s2="25"`  
+**Output:** `35`
 
 ---
 

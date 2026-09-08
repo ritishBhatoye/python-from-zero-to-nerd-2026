@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q2  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Compute the factorial of a given number. Input: 8, Output: 40320
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `120`
 
 ---
 

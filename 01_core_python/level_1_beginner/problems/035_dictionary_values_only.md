@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q35  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Generate dictionary with squares (1-20) and print values only.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Example:**
+```python
+d = {1: 1, 2: 4, 3: 9}
+# Print: 1, 4, 9 (values only)
+```
 
 ---
 

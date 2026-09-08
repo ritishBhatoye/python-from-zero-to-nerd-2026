@@ -3,11 +3,13 @@
 Generate list of squares (1-20) and print all except first 5.
 """
 
+ans = []
 
-# Your implementation here
-pass
+for i in range(1, 21):
+    ans.append(i * i)
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+for i in range(len(ans)):
+    if i == 0:
+        continue
+    print(ans[i])

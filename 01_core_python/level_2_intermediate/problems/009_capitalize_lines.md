@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q9  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,21 @@ Read lines until empty line, print all in uppercase.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:**
+```
+Hello world
+Practice makes perfect
+```
+**Output:**
+```
+HELLO WORLD
+PRACTICE MAKES PERFECT
+```
 
 ---
 

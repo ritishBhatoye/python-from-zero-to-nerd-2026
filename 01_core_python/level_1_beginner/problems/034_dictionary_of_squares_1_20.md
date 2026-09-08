@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q34  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Print a dictionary where keys are 1-20 and values are squares.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `25`
 
 ---
 

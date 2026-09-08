@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q84  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Shuffle and print list [3,6,7,8].
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

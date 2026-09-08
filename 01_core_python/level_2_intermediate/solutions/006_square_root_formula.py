@@ -3,11 +3,19 @@
 Calculate Q = sqrt((2*C*D)/H) where C=50, H=30, D is comma-separated input.
 """
 
-
 # Your implementation here
-pass
+import math
 
+C = 50
+H = 30
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+D = input().split(",")
+
+ans = []
+
+for d in D:
+    d = int(d)
+    Q = math.sqrt((2 * C * d) / H)
+    ans.append(Q)
+
+print(ans)

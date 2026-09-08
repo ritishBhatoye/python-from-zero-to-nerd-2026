@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q27  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Define a function that converts an integer into a string and prints it.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

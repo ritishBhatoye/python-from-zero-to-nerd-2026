@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q6  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Calculate Q = sqrt((2*C*D)/H) where C=50, H=30, D is comma-separated input.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `25`
 
 ---
 

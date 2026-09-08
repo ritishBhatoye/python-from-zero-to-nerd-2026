@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q30  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Define a function that accepts two strings and concatenates them.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `s1="Hello", s2="World"`  
+**Output:** `"HelloWorld"`
+
+**Input:** `s1="Python", s2="3"`  
+**Output:** `"Python3"`
 
 ---
 

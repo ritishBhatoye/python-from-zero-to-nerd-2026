@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q10  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,15 @@ Remove duplicate words and sort alphanumerically.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `hello world and practice makes perfect and hello world again`  
+**Output:** `again and hello makes perfect practice world`
+
+Unique words sorted alphabetically
 
 ---
 

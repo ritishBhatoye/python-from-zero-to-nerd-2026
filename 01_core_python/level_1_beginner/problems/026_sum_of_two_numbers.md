@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q26  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Define a function which can compute the sum of two numbers.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `a=5, b=3`  
+**Output:** `8`
 
 ---
 

@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q16  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Use list comprehension to filter odd numbers from comma-separated input.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`  
+**Output:** `[2, 4, 6, 8, 10]`
 
 ---
 

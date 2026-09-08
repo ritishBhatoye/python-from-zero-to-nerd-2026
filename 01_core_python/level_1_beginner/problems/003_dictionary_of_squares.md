@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q3  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Generate a dictionary that contains (i, i*i) for i from 1 to n (both included).
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `5`  
+**Output:** `25`
 
 ---
 

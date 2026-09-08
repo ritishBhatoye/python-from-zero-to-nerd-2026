@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q64  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Compute 1/2+2/3+3/4+...+n/(n+1) for given n.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

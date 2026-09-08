@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q38  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Generate list of squares (1-20) and print first 5 elements.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `lst=[1,2,3,4,5], n=3`  
+**Output:** `[1, 2, 3]`
+
+**Input:** `lst=[10,20,30], n=2`  
+**Output:** `[10, 20]`
 
 ---
 

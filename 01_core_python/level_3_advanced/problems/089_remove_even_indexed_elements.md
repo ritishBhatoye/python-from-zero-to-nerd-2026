@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 3 — Advanced  
-**Source:** zhiwehu/Python-programming-exercises Q89  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,13 @@ Remove 0th,2nd,4th,6th elements using enumerate.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`  
+**Output:** `[2, 4, 6, 8, 10]`
 
 ---
 

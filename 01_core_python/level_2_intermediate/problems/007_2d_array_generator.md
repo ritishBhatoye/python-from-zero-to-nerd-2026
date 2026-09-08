@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q7  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,15 @@ Generate 2D array where element[i][j] = i*j. Input: dimensions as X,Y
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `3,5`  
+**Output:** `[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]`
+
+The array has 3 rows and 5 columns, where `array[i][j] = i * j`
 
 ---
 

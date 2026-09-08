@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q15  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,15 @@ Compute a+aa+aaa+aaaa with given digit a.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `9`  
+**Output:** `11106`
+
+Calculation: 9 + 99 + 999 + 9999 = 11106
 
 ---
 

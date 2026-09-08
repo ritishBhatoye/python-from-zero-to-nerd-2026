@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q40  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Generate list of squares (1-20) and print all except first 5.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 

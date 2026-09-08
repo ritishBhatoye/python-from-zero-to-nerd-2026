@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q31  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,16 @@ Print the string with maximum length. If equal, print both.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Input:** `s1="hello", s2="world"`  
+**Output:** `"hello"` (or `"world"` if equal, print both)
+
+**Input:** `s1="Python", s2="AI"`  
+**Output:** `"Python"`
 
 ---
 

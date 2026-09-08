@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 1 — Beginner  
-**Source:** zhiwehu/Python-programming-exercises Q25  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,23 @@ Define a class with class parameter and instance parameter.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**Example:**
+```python
+class Person:
+    name = "Person"  # Class attribute
+    
+    def __init__(self, name):
+        self.name = name  # Instance attribute
+
+p = Person("Alice")
+print(Person.name)  # "Person"
+print(p.name)       # "Alice"
+```
 
 ---
 

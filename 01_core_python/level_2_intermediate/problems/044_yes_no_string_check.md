@@ -2,7 +2,6 @@
 
 **Phase:** `01_core_python`  
 **Level:** 2 — Intermediate  
-**Source:** zhiwehu/Python-programming-exercises Q44  
 **Status:** 🔴 Not started
 
 ## Concepts
@@ -24,6 +23,12 @@ Print 'Yes' if input is 'yes'/'YES'/'Yes', otherwise print 'No'.
 ## Requirements
 
 Implement the solution as described above.
+
+---
+
+## Examples
+
+**See objective and requirements for expected behavior.**
 
 ---
 
