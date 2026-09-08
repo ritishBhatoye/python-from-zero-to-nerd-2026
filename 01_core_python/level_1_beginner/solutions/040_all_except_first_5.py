@@ -7,6 +7,11 @@ Generate list of squares (1-20) and print all except first 5.
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+ans = []
+
+for i in range(1, 21):
+    ans = i * i
+
+
+for i in ans:
+    print(ans[i])
