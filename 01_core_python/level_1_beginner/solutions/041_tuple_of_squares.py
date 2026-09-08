@@ -3,11 +3,9 @@
 Generate and print a tuple of squares from 1-20.
 """
 
+ans = ()
 
-# Your implementation here
-pass
+for i in range(1, 21):
+    ans = ans + (i * i)
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print(ans)
