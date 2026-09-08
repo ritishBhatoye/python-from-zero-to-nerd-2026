@@ -10,4 +10,6 @@ for i in range(1, 21):
 
 
 for i in range(len(ans)):
+    if i == 0:
+        continue
     print(ans[i])
