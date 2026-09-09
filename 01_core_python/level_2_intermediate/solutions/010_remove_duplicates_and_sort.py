@@ -7,7 +7,12 @@ Remove duplicate words and sort alphanumerically.
 pass
 
 
-line = input("Enter the line : ")
+lines = input("Enter the line : ")
 
-for i in line:
-    print(i)
+words = lines.split(",")
+words.sort()
+for w in words:
+    if words[w] == words[w + 1]:
+        words.pop(w)
+
+print(words)
