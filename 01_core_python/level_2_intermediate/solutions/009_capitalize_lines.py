@@ -3,11 +3,11 @@
 Read lines until empty line, print all in uppercase.
 """
 
-
 # Your implementation here
 pass
 
+lines = input("Enter the lines : ")
+print(lines)
+lines.upper()
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print(lines)
