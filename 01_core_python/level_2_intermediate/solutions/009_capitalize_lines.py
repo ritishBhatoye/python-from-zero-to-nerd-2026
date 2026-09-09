@@ -8,6 +8,6 @@ pass
 
 lines = input("Enter the lines : ")
 print(lines)
-lines.upper()
+lines = lines.upper()
 
 print(lines)
