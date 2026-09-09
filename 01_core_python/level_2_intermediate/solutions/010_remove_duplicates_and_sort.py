@@ -9,6 +9,6 @@ pass
 
 lines = input("Enter the line : ")
 
-words = sorted(set(lines.split(",")))
+words = sorted(set(lines.split()))
 
 print(words)
