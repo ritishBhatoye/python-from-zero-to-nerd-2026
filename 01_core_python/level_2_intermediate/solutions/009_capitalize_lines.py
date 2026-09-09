@@ -11,7 +11,7 @@ lines = []
 for i in range(1, n + 1):
     line = input("Enter the line :- ")
     line = line.upper()
-    lines.append(lines)
+    lines.append(line)
 
 lines = str(lines)
 
