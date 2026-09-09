@@ -6,8 +6,10 @@ Read lines until empty line, print all in uppercase.
 # Your implementation here
 pass
 
-lines = input("Enter the lines : ")
-print(lines)
-lines = lines.upper()
+import sys
 
-print(lines)
+lines = sys.stdin.read().splitlines()
+
+
+for line in lines:
+    print(line.upper())
