@@ -3,11 +3,19 @@
 Generate 2D array where element[i][j] = i*j. Input: dimensions as X,Y
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+rows = int(input("Enter the row : "))
+cols = int(input("Enter the column : "))
+
+ans = []
+
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        row.append(i * j)
+    ans.append(row)
+
+print(ans)
