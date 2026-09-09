@@ -6,9 +6,15 @@ Read lines until empty line, print all in uppercase.
 # Your implementation here
 pass
 
-import sys
+n = int(input("Enter number of lines : "))
+lines = []
+for i in n:
+    line = input("Enter the line ", i, " :- ")
+    line = line.upper()
+    lines.append(lines)
 
-lines = sys.stdin.read().splitlines()
+lines = str(lines)
 
-for line in lines:
-    print(line.upper())
+lines = lines.split(",")
+
+print(lines)
