@@ -3,11 +3,15 @@
 Sort comma-separated words alphabetically.
 """
 
-
 # Your implementation here
 pass
 
+words = input("Enter the test cases ")
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+words = words.split(",")
+
+words.sort()
+
+result = ",".join(words)
+
+print(result)
