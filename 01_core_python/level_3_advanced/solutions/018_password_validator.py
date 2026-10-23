@@ -8,6 +8,7 @@ Validate passwords based on criteria: [a-z], [A-Z], [0-9], [$#@], length 6-12.
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+password = input("Enter the password : ")
+
+def passwordValidator(x):
+    
