@@ -253,6 +253,7 @@ def fix_generic_example(file_path: Path):
     # Check if has any generic example variant
     has_generic = (
         "Example usage:" in content
+        and "See objective above" in content
         or "See objective above for expected behavior and test cases" in content
         or "See objective and requirements for expected behavior" in content
     )

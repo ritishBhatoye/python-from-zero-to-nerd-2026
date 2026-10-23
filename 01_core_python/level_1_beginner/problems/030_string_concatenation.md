@@ -28,10 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**Example usage:**
-```python
-# See objective above for expected **behavior**
-```
+**Input:** `"Hello", " World"`  
+**Output:** `"Hello World"`
+
+The function concatenates two strings together.
 
 ---
 
