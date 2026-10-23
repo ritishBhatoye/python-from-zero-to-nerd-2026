@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `heads=35, legs=94`
+**Output:** `chickens=23, rabbits=12`
+
+Solve: c + r = 35, 2c + 4r = 94
 
 ---
 

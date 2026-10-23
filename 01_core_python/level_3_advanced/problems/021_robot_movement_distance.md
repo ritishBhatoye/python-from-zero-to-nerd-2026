@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"UP 5,DOWN 3,LEFT 3,RIGHT 2"`
+**Output:** `2` (distance from origin)
+
+Calculate Euclidean distance after all movements.
 
 ---
 

@@ -34,14 +34,8 @@ Implement the solution as described above.
 **Input:** `s1="10", s2="25"`  
 **Output:** `35`
 
----
-
-## Hints (use only if stuck)
-
-1. Refer to the problem description
-2. Consider using appropriate data structures
-3. Test with multiple inputs
-
+**Input:** `s1="-5", s2="8"`  
+**Output:** `3`
 ---
 
 ## Test Command

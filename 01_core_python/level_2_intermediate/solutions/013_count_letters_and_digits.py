@@ -5,9 +5,18 @@ Calculate number of letters and digits in a sentence.
 
 
 # Your implementation here
-pass
 
+sentence = input("Enter the sentence : ")
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+sCounter = 0
+dCounter = 0
+for i in sentence:
+    if i.isalpha():
+        sCounter += 1
+    elif i.isdigit():
+        dCounter += 1
+    else:
+        continue
+
+print("Alphabets : ", sCounter)
+print("Digits : ", dCounter)

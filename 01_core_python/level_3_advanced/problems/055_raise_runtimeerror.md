@@ -28,7 +28,7 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Output:** Raises `RuntimeError` with custom message.
 
 ---
 

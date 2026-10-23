@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `[1, 3, 5, 7, 9], target=5`
+**Output:** `2` (index of 5)
 
 ---
 

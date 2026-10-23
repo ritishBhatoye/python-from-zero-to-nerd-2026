@@ -28,7 +28,7 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Output:** List of 5 random numbers: `[3, 17, 8, 22, 15]`
 
 ---
 

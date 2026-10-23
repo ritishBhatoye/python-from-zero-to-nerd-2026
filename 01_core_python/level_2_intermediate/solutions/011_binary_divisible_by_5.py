@@ -7,7 +7,8 @@ Check which 4-digit binary numbers are divisible by 5.
 # Your implementation here
 pass
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+n = int(input("Enter the number of test case :- "))
+binary = []
+for i in range(1,n+1):
+    b = int(input("Enter the Digit :- "))
+    binary.append(int(""))

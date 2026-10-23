@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `(1, 2, 3, 4, 5, 6)`
+**Output:** First half: `(1, 2, 3)`, Last half: `(4, 5, 6)`
 
 ---
 

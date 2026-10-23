@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Example:**
+```python
+American.print_nationality()  # Output: America
+```
 
 ---
 

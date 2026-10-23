@@ -28,7 +28,9 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Output:** `0,7,14,21,28,...`
+
+Generates numbers divisible by 7 using yield.
 
 ---
 

@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 123`
+**Output:** `"123"` (as string)
+
+Converts integer to string type.
 
 ---
 

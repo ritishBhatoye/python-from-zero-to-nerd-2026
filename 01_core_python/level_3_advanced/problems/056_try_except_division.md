@@ -28,7 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `10 / 2`
+**Output:** `5.0`
+
+**Input:** `10 / 0`
+**Output:** Error message handled by except block.
 
 ---
 

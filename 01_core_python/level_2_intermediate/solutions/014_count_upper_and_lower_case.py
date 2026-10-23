@@ -3,11 +3,19 @@
 Count uppercase and lowercase letters in a sentence.
 """
 
-
 # Your implementation here
 pass
 
+sentence = input("Enter any sentence :- ")
+uCounter = 0
+lCounter = 0
+for i in sentence:
+    if i.isupper():
+        uCounter += 1
+    elif i.islower():
+        lCounter += 1
+    else:
+        continue
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print("Upper case alphabets : ", uCounter)
+print("Lower case alphabets : ", lCounter)

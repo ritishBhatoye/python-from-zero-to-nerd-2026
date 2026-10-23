@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 5`
+**Output:** `500` (100 + 100 + 100 + 100 + 100)
 
 ---
 

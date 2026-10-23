@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `length = 5, width = 3`
+**Output:** `15`
+
+Calculate area using length × width.
 
 ---
 

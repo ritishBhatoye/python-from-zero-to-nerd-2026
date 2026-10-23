@@ -3,11 +3,24 @@
 Use list comprehension to filter odd numbers from comma-separated input.
 """
 
-
 # Your implementation here
 pass
 
+odd = []
+n = int(input("Enter limit : "))
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+for i in range(0, n):
+    num = int(input("Enter the number : "))
+    odd.append(num)
+
+newOddList = []
+
+
+for i in odd:
+    if i % 2 != 0:
+        newOddList.append(i)
+    else:
+        continue
+
+for i in newOddList:
+    print(i)

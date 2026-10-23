@@ -3,11 +3,14 @@
 Remove duplicate words and sort alphanumerically.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+lines = input("Enter the line : ")
+
+words = sorted(set(lines.split()))
+
+result = " ".join(words)
+
+print(result)

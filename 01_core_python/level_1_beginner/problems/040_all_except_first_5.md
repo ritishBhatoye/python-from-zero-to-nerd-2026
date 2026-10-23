@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `[1, 2, 3, 4, 5, 6, 7, 8]`
+**Output:** `[6, 7, 8]`
+
+Returns all elements except first 5.
 
 ---
 

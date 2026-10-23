@@ -28,11 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**Input:** `s1="Hello", s2="World"`  
-**Output:** `"HelloWorld"`
+**Input:** `"Hello", " World"`  
+**Output:** `"Hello World"`
 
-**Input:** `s1="Python", s2="3"`  
-**Output:** `"Python3"`
+The function concatenates two strings together.
 
 ---
 

@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"Abc123@pwd,weakpass,Valid1@"`
+**Output:** `"Abc123@pwd,Valid1@"`
+
+Only passwords meeting all criteria are returned.
 
 ---
 
