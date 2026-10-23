@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 456`
+**Output:** Prints `"456"`
+
+Prints the string representation of an integer.
 
 ---
 

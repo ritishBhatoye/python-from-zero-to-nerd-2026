@@ -28,7 +28,17 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"yes"`
+**Output:** `True`
+
+**Input:** `"no"`
+**Output:** `True`
+
+**Input:** `"Yes"`
+**Output:** `True`
+
+**Input:** `"maybe"`
+**Output:** `False`
 
 ---
 

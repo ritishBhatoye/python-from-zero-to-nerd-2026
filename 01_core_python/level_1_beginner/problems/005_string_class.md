@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"hello world"`
+**Output:** String class with methods like `getString()` and `printString()`
 
 ---
 
