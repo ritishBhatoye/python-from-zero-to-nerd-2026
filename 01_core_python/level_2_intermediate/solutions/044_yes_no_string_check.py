@@ -8,7 +8,7 @@ pass
 
 x = input("Enter the input : ")
 
-if x == "Yes" or x == "yes" or x == "YES":
+if "Yes" in x or "YES" in x or "yes" in x:
     print("Yes")
 else:
     print("No")
