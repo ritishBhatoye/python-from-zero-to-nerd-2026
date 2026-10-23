@@ -17,4 +17,5 @@ def generatorDivisibleBy7(x):
             continue
 
 
-generatorDivisibleBy7(n)
+for num in generatorDivisibleBy7(n):
+    print(num)
