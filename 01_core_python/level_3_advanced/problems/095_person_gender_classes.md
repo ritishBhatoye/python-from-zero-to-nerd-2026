@@ -28,7 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Example:**
+```python
+male = Male("John")
+print(male.get_gender())  # Output: Male
+```
 
 ---
 

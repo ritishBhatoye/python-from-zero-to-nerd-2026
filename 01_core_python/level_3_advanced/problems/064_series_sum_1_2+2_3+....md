@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 3`
+**Output:** `1.8333` (1/2 + 2/3 + 3/4)
 
 ---
 

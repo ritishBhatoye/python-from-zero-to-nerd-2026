@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `list1=[1,2,3], list2=[2,3,4]`
+**Output:** `[2, 3]`
 
 ---
 

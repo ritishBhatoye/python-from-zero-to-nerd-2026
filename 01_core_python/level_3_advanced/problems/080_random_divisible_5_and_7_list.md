@@ -28,7 +28,7 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Output:** Numbers divisible by both 5 and 7: `0, 35, 70, 105, ...`
 
 ---
 

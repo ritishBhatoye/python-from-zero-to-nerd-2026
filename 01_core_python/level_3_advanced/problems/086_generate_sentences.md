@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** Subject/verb/object lists
+**Output:** Generated sentences like "I love Python"
 
 ---
 

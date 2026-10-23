@@ -28,7 +28,11 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Example:**
+```python
+subclass = Person("John")
+subclass.get_name()  # Returns: John
+```
 
 ---
 

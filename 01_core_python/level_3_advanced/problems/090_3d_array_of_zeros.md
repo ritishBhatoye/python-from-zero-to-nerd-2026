@@ -28,7 +28,9 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Output:** `[[[0, 0], [0, 0]], [[0, 0], [0, 0]]]`
+
+Creates 2x2x2 array of zeros.
 
 ---
 

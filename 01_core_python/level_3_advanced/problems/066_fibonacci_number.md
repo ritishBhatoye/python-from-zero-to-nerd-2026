@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 7`
+**Output:** `13`
+
+The 7th Fibonacci number.
 
 ---
 

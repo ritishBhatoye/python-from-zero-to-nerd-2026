@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"abc123def456"`
+**Output:** `"123456"`
 
 ---
 

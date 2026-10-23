@@ -28,7 +28,8 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"abc"`
+**Output:** `["abc", "acb", "bac", "bca", "cab", "cba"]`
 
 ---
 

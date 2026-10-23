@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `radius = 5`
+**Output:** `78.54`
+
+Calculate area using π * r².
 
 ---
 

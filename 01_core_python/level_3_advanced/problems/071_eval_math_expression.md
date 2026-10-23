@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"2+3*4"`
+**Output:** `14`
+
+Evaluate mathematical expression.
 
 ---
 

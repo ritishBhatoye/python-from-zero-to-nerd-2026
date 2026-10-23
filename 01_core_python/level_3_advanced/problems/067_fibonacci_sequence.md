@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `n = 8`
+**Output:** `[0, 1, 1, 2, 3, 5, 8, 13]`
+
+First 8 Fibonacci numbers.
 
 ---
 

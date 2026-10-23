@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `[(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]`
+**Output:** `[(1, 2), (2, 1), (2, 3), (2, 5), (4, 4)]`
+
+Sorted by first element, then by second element.
 
 ---
 

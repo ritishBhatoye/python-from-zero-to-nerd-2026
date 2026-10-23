@@ -28,7 +28,10 @@ Implement the solution as described above.
 
 ## Examples
 
-**See objective and requirements for expected behavior.**
+**Input:** `"New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3."`
+**Output:** `{"2": 2, "3.": 1, "3?": 1, "New": 1, "Python": 5, "Read": 1, "and": 1, ...}`
+
+Count word frequency (case insensitive).
 
 ---
 
