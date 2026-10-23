@@ -6,9 +6,15 @@ Use list comprehension to filter odd numbers from comma-separated input.
 # Your implementation here
 pass
 
-odd = input("Enter comma separated numeric values : ")
+odd = []
+n = int(input("Enter limit : "))
+
+for i in range(0, n):
+    num = int(input("Enter the number : "))
+    odd.append(num)
 
 newOddList = []
+
 
 for i in odd:
     if i % 2 != 0:
