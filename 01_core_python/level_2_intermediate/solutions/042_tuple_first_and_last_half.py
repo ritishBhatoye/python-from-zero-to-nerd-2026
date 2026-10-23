@@ -8,8 +8,8 @@ pass
 
 t = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-end = len(t)
-mid = end / 2
+end = int(len(t))
+mid = int(end / 2)
 
 print(t[:mid])
 print(t[mid:])
