@@ -3,11 +3,20 @@
 Use filter() to get even numbers from [1,2,3,4,5,6,7,8,9,10].
 """
 
-
 # Your implementation here
 pass
 
+even = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+
+def filterEven(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+
+
+ans = filter(filterEven, even)
+
+for x in ans:
+    print(x)
