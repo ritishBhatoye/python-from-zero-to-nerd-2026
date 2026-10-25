@@ -11,7 +11,7 @@ import math
 def total(x=[]):
     sum = 0
     for i in x:
-        sum += x[i]
+        sum += i
 
 
 def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
