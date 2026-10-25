@@ -3,7 +3,6 @@
 Define class with static method printNationality.
 """
 
-
 # Your implementation here
 pass
 
