@@ -14,23 +14,19 @@ def total(x=[]):
         sum += x[i]
 
 
-def func(up=[], down=[], left=[], right=[]):
+def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
     x = y = 0
     uTotal = total(up)
     dTotal = total(down)
     lTotal = total(left)
     rTotal = total(right)
 
-    if uTotal > dTotal:
-        x = uTotal - dTotal
-    elif dTotal > uTotal:
-        x = dTotal - uTotal
-
-    if lTotal < rTotal:
-        y = rTotal - lTotal
-    elif lTotal > rTotal:
-        y = lTotal - rTotal
+    x = abs(uTotal - dTotal)
+    y = abs(rTotal - lTotal)
 
     h = x * x + y * y
     result = math.sqrt(h)
     return result
+
+
+robotMoves()
