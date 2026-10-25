@@ -29,4 +29,8 @@ def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
     return result
 
 
-robotMoves()
+u = [5]
+d = [3]
+l = [3]
+r = [2]
+print("Result :- ", robotMoves(u, d, l, r))
