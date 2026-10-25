@@ -5,6 +5,7 @@ Calculate distance from origin after robot movements (UP/DOWN/LEFT/RIGHT).
 
 # Your implementation here
 pass
+import math
 
 
 def total(x=[]):
@@ -26,4 +27,10 @@ def func(up=[], down=[], left=[], right=[]):
         x = dTotal - uTotal
 
     if lTotal < rTotal:
-        y = lt
+        y = rTotal - lTotal
+    elif lTotal > rTotal:
+        y = lTotal - rTotal
+
+    h = x * x + y * y
+    result = math.sqrt(h)
+    return result
