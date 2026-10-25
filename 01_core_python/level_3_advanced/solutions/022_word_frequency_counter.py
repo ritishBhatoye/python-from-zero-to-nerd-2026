@@ -7,7 +7,13 @@ Compute and print word frequency, sorted alphabetically.
 # Your implementation here
 pass
 
+sentence = input("Enter the sentence :- ")
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+senList =  sentence.split()
+
+
+ans = {}
+for i in senList:
+    j=i+1
+    for j in senList:
+        
