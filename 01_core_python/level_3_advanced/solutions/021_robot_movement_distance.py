@@ -12,6 +12,7 @@ def total(x=[]):
     sum = 0
     for i in x:
         sum += i
+    return sum
 
 
 def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
@@ -26,7 +27,7 @@ def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
 
     h = x * x + y * y
     result = math.sqrt(h)
-    return result
+    return int(result)
 
 
 u = [5]
