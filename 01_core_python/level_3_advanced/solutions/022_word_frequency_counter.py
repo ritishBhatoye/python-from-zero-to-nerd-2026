@@ -8,7 +8,7 @@ Compute and print word frequency, sorted alphabetically.
 pass
 
 sentence = input("Enter the sentence :- ")
-
+sentence=sentence.lower()
 senList =  sentence.split()
 
 
