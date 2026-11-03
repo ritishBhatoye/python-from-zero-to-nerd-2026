@@ -14,7 +14,12 @@ class American:
         name = self.name
         print("Hanji mitro")
 
-
-class NewYorker(American):
     def get_name(self):
         return self.name
+
+
+class NewYorker(American):
+    pass
+
+
+subclass = NewYorker("Ritish Bhatoye")
