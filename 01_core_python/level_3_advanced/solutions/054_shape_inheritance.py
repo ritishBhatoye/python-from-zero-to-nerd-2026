@@ -8,6 +8,9 @@ Define Shape class and Square subclass with area methods.
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+class Shape:
+    def __init__(self):
+        print("hey from shape class")
+
+
+class Square()
