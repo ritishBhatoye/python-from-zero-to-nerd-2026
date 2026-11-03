@@ -5,9 +5,14 @@ Define American class and NewYorker subclass.
 
 
 # Your implementation here
-pass
 
+class American:
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+    name = " "
+
+    def __init__(self):
+        print("Hanji mitro ")
+ 
+
+class NewYorker(American):
+    
