@@ -8,7 +8,7 @@ Define American class and NewYorker subclass.
 
 
 class American:
-    name = " "
+    name = ""
 
     def __init__(self, name):
         name = self.name
@@ -23,3 +23,4 @@ class NewYorker(American):
 
 
 subclass = NewYorker("Ritish Bhatoye")
+print(subclass.get_name())
