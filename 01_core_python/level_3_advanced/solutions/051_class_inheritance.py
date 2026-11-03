@@ -11,8 +11,7 @@ class American:
     name = ""
 
     def __init__(self, name):
-        name = self.name
-        print("Hanji mitro")
+        self.name = name
 
     def get_name(self):
         return self.name
