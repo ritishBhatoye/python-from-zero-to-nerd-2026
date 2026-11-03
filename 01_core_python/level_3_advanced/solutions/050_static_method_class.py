@@ -4,9 +4,12 @@ Define class with static method printNationality.
 """
 
 # Your implementation here
-pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+class STMethod:
+    @staticmethod
+    def print_nationality(nationality):
+        return nationality
+
+
+print(STMethod.print_nationality("American"))
