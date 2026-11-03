@@ -20,3 +20,7 @@ class Rectangle:
         b = self.width
 
         return l * b
+
+
+r = Rectangle(4, 5)
+print("Area : ", r.area())
