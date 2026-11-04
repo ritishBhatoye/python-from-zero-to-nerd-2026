@@ -29,7 +29,7 @@ Implement the solution as described above.
 ## Examples
 
 **Input:** `n = 3`
-**Output:** `1.8333` (1/2 + 2/3 + 3/4)
+**Output:** `1.9166666666666665` (1/2 + 2/3 + 3/4)
 
 ---
 
