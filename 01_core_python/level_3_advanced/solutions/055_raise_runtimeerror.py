@@ -5,9 +5,12 @@ Raise a RuntimeError exception.
 
 
 # Your implementation here
-pass
+def raiseRT():
+    try:
+        result = 5 / 0
+        print(result)
+    except:
+        print("Error : Denominator cannot be 0")
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+raiseRT()
