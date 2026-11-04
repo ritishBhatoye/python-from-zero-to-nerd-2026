@@ -9,8 +9,10 @@ pass
 n = int(input("Enter the value for n : "))
 
 
-def mathApproach(n):
-    return (n * (n - 1)) / 2
+def cal(n):
+    sum = 0
+    for i in range(1, n):
+        sum += i / i + 1
 
 
-print("Sum : ", mathApproach(n))
+print("Sum : ", cal(n))
