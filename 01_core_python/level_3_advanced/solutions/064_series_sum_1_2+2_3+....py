@@ -12,7 +12,7 @@ n = int(input("Enter the value for n : "))
 def cal(n):
     sum = 0
     for i in range(1, n):
-        sum += i / (i + 1)
+        sum += i
     return sum
 
 
