@@ -15,6 +15,7 @@ def extractEmail(n):
             break
         else:
             ans += n[i]
+            print(n[i])
 
     return ans
 
