@@ -7,6 +7,10 @@ Print string in reverse order.
 pass
 
 
+def swap(a, b):
+    return b, a
+
+
 def reverseStr(n):
     i = 0
     j = len(n) - 1
@@ -17,3 +21,7 @@ def reverseStr(n):
         j -= 1
 
     return n
+
+
+n = input("Enter the string : ")
+print("Reverse string :- ", reverseStr(n))
