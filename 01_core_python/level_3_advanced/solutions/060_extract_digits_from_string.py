@@ -16,3 +16,7 @@ def extractDigitsFromSt(n):
             ans += n[i]
 
     return ans
+
+
+n = input("Enter the digits : ")
+print("Extract Digits from String : ", extractDigitsFromSt(n))
