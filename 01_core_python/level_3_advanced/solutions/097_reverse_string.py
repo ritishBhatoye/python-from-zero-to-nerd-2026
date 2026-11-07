@@ -3,11 +3,17 @@
 Print string in reverse order.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def reverseStr(n):
+    i = 0
+    j = len(n) - 1
+
+    while i < j:
+        swap(n[i], n[j])
+        i += 1
+        j -= 1
+
+    return n
