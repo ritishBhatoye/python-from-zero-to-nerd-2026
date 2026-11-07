@@ -15,3 +15,8 @@ def chrCount(n):
             ans[n[i]] += 1
         else:
             ans[n[i]] = 1
+    return ans
+
+
+n = input("Enter string : ")
+print("Character count : ", chrCount(n))
