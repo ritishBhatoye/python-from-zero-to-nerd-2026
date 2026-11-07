@@ -9,5 +9,9 @@ Count and print frequency of each character.
 
 def chrCount(n):
     ans = {}
-    for i in n:
-        ans[n[i]] = n[i]
+    n = list(n)
+    for i in range(len(n)):
+        if n[i] in ans:
+            ans[n[i]] += 1
+        else:
+            ans[n[i]] = 1
