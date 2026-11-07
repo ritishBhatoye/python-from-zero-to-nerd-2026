@@ -9,11 +9,10 @@ pass
 
 def extractCompany(n):
     ans = ""
-    for i in range(len(n)):
-        if n[i] == "@":
-            break
-        else:
-            ans += n[i]
+
+    i = 0
+    while(n[i]!="@"):
+        i++
 
     return ans
 
