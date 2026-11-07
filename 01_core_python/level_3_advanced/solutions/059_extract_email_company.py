@@ -14,7 +14,8 @@ def extractCompany(n):
     while n[i] != "@":
         i += 1
 
-    while i != ".":
+    i += 1
+    while n[i] != ".":
         ans += n[i]
         i += 1
     return ans

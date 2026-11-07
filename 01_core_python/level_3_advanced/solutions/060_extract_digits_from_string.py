@@ -3,7 +3,6 @@
 Extract only digit sequences from input string.
 """
 
-
 # Your implementation here
 pass
 
