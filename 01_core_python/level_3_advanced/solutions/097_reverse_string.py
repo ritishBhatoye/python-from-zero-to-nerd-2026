@@ -16,7 +16,7 @@ def reverseStr(n):
     j = len(n) - 1
 
     while i < j:
-        swap(n[i], n[j])
+        n[i], n[j] = swap(n[i], n[j])
         i += 1
         j -= 1
 
