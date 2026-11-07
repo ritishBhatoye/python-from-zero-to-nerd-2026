@@ -12,16 +12,19 @@ def swap(a, b):
 
 
 def reverseStr(n):
+    n = list(n)
+
     i = 0
     j = len(n) - 1
 
     while i < j:
         n[i], n[j] = swap(n[i], n[j])
+
         i += 1
         j -= 1
 
-    return n
+    return "".join(n)
 
 
-n = input("Enter the string : ")
-print("Reverse string :- ", reverseStr(n))
+n = input("Enter the string: ")
+print("Reverse string:", reverseStr(n))
