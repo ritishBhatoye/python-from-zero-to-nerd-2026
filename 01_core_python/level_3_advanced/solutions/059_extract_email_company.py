@@ -3,11 +3,20 @@
 Extract company name from email address using regex.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def extractCompany(n):
+    ans = ""
+    for i in range(len(n)):
+        if n[i] == "@":
+            break
+        else:
+            ans += n[i]
+
+    return ans
+
+
+n = input("Enter extract company : ")
+print("Extracted Company Name : ", extractCompany(n))
