@@ -7,22 +7,15 @@ Print string in reverse order.
 pass
 
 
-def swap(a, b):
-    return b, a
-
-
 def reverseStr(n):
+    ans = []
     n = list(n)
 
-    i = 0
     j = len(n) - 1
 
-    while i < j:
-        n[i], n[j] = swap(n[i], n[j])
-
-        i += 1
+    while j != 0:
+        ans += n[j]
         j -= 1
-
     return "".join(n)
 
 
