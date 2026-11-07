@@ -6,4 +6,13 @@ Extract only digit sequences from input string.
 # Your implementation here
 pass
 
+
 def extractDigitsFromSt(n):
+    ans = ""
+    for i in range(len(n)):
+        if n[i].isalpha():
+            i += 1
+        else:
+            ans += n[i]
+
+    return ans
