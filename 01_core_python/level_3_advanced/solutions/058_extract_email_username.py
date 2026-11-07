@@ -9,13 +9,11 @@ pass
 
 def extractEmail(n):
     ans = ""
-    n = n.upper()
     for i in range(len(n)):
-        if i == "@":
+        if n[i] == "@":
             break
         else:
             ans += n[i]
-            print(n[i])
 
     return ans
 
