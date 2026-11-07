@@ -6,7 +6,8 @@ Count and print frequency of each character.
 
 # Your implementation here
 
+
 def chrCount(n):
-   ans = {}
+    ans = {}
     for i in n:
-        a
+        ans[n[i]] = n[i]
