@@ -16,7 +16,7 @@ def reverseStr(n):
     while j != 0:
         ans += n[j]
         j -= 1
-    return "".join(n)
+    return "".join(ans)
 
 
 n = input("Enter the string: ")
