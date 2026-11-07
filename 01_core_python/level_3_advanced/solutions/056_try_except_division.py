@@ -1,23 +1,24 @@
-# """Exercise 056 — Try Except Division.
+"""Exercise 056 — Try Except Division.
 
-# Use try/except to catch ZeroDivisionError from 5/0.
-# """
+Use try/except to catch ZeroDivisionError from 5/0.
+"""
 
-# # Your implementation here
-# pass
+# Your implementation here
+pass
 
 
-# def func():
-#     try:
-#         n = int(input("Enter the num : "))
-#         d = int(input("Enter the den : "))
+def func():
+    try:
+        n = int(input("Enter the num : "))
+        d = int(input("Enter the den : "))
 
-#         print("Result : ", n / d)
+        print("Result : ", n / d)
 
-#     except:
-#         print("Error occurred ")
+    except:
+        print("Error occurred ")
 
-#     finally:
-#         print("END is reached")
+    finally:
+        print("END is reached")
 
-print("HANJI SONU SITOWALIA")
+
+func()
