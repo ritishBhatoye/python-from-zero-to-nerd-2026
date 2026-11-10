@@ -7,12 +7,9 @@ Use assert to verify all numbers in [2,4,6,8] are even.
 pass
 
 
-ans = []
+numbers = [2, 4, 6, 1, 8]
 
-l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for num in numbers:
+    assert num % 2 == 0
 
-for i in l:
-    assert i % 2 == 0
-    ans.append(i)
-
-print(ans)
+print("All numbers are even!")
