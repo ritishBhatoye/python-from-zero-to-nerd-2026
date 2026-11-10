@@ -45,3 +45,6 @@ def bs(x):
     ans.append(endingID)
 
     return ans
+
+
+print("Binary Search  :- ", bs(x))
