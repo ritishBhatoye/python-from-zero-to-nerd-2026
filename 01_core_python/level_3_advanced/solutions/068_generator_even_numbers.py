@@ -8,9 +8,10 @@ pass
 
 
 def genEven():
-    for i in range(0, 10):
+    for i in range(1, 11):
         if i % 2 == 0:
             yield i
 
 
-print("Generating even numbers :- ", genEven())
+for num in genEven():
+    print("Generating even numbers :- ", num)
