@@ -19,7 +19,7 @@ def bs(x):
         mid = int((s + e) / 2)
 
         if arr[mid] == x:
-            endingID = mid
+            startingID = mid
             s = mid - 1
         elif arr[mid] < x:
             e = mid + 1
