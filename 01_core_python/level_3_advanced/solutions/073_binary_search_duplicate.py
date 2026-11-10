@@ -20,11 +20,11 @@ def bs(x):
 
         if arr[mid] == x:
             startingID = mid
-            s = mid - 1
+            e = mid - 1
         elif arr[mid] < x:
-            e = mid + 1
+            s = mid + 1
         else:
-            s = mid - 1
+            e = mid - 1
 
     ans.append(startingID)
 
@@ -36,11 +36,11 @@ def bs(x):
 
         if arr[mid] == x:
             endingID = mid
-            e = mid + 1
+            s = mid + 1
         elif arr[mid] < x:
-            e = mid + 1
+            s = mid + 1
         else:
-            s = mid - 1
+            e = mid - 1
 
     ans.append(endingID)
 
