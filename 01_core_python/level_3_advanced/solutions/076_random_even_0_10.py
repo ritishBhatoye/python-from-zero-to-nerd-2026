@@ -3,11 +3,8 @@
 Output random even number between 0-10 using list comprehension.
 """
 
-
 # Your implementation here
-pass
+import random
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+ans = random.randrange(2, 101, 2)
+print(ans)
