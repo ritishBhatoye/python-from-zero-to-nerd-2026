@@ -3,11 +3,10 @@
 Generate random float between 5 and 95.
 """
 
-
 # Your implementation here
-pass
+import random
 
+ans = 0.0
+ans = random.uniform(5.0, 95.0)
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print(ans)
