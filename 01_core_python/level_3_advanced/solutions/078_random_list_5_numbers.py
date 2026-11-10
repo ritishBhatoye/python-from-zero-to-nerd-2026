@@ -3,11 +3,12 @@
 Generate list with 5 random numbers between 100-200.
 """
 
+import random
 
-# Your implementation here
-pass
+ans = []
+for i in range(100, 200):
+    if len(ans) == 5:
+        break
+    ans.append(random.randint(i))
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print(ans)
