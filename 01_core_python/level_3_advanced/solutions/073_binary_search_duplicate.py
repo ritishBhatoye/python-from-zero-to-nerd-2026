@@ -47,4 +47,5 @@ def bs(x):
     return ans
 
 
-print("Binary Search  :- ", bs(x))
+x = int(input("Enter the number you want to search : "))
+print("Binary Search Indices for ", x, " :- ", bs(x))
