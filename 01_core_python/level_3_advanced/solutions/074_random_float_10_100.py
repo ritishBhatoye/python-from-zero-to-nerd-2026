@@ -3,11 +3,10 @@
 Generate random float between 10 and 100.
 """
 
-
 # Your implementation here
-pass
+import random
 
+ans = 0
+ans = random.randint(10, 100)
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print(ans)
