@@ -8,8 +8,7 @@ import random
 
 ans = []
 for i in range(1, 101):
-    if i % 7 and i % 5 == 0:
+    if i % 7 == 0 and i % 5 == 0:
         ans.append(i)
-
 num = random.choice(ans)
 print(num)
