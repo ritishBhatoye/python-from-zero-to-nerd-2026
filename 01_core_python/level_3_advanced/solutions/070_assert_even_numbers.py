@@ -3,11 +3,14 @@
 Use assert to verify all numbers in [2,4,6,8] are even.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+ans = []
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in l:
+    assert i % 2 == 0
+     ans.append(i)
