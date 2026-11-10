@@ -7,7 +7,13 @@ Implement binary search function (duplicate question).
 # Your implementation here
 pass
 
+arr = [1, 2, 2, 2, 3, 4]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def bs(x):
+    s=0
+    e=len(arr)-1
+    
+    while(s<=e):
+        mid = int((s+e)/2)
+
+        if(mid)
