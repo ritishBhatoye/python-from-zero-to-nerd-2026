@@ -3,11 +3,20 @@
 Use generator for numbers divisible by both 5 and 7.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+ans = []
+
+
+def genFS(x):
+    for i in range(1, x):
+        if i % 5 == 0 and i % 7 == 0:
+            yield i
+        else:
+            continue
+
+
+for num in genFS(101):
+    print(genFS(num))
