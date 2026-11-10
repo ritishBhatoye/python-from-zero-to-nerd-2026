@@ -19,4 +19,4 @@ def genFS(x):
 
 
 for num in genFS(101):
-    print(genFS(num))
+    print(num)
