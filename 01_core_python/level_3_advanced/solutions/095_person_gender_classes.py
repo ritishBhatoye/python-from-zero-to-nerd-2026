@@ -36,3 +36,4 @@ m = Male("Ritish Bhatoye", 23)
 f = Female("Ritika", 22)
 
 print("Male : ", m.name, "Age : ", m.age)
+print("Female : ", f.name, "Age : ", f.age)
