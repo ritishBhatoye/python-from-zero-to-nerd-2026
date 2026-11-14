@@ -5,9 +5,7 @@ Print characters at even indices.
 
 
 # Your implementation here
-pass
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+str = input("Enter the string : ")
+str = "".list(str)
+print("Ans :- ", len(str))
