@@ -21,8 +21,7 @@ class Male(Person):
 
     def __init__(self, name, age):
         super().__init__(name, age)
-        gender = "Male"
-        return gender
+        self.gender = "Male"
 
 
 class Female(Person):
@@ -30,8 +29,7 @@ class Female(Person):
 
     def __init__(self, name, age):
         super().__init__(name, age)
-        gender = "Female"
-        return gender
+        self.gender = "Female"
 
 
 m = Male("Ritish Bhatoye", 23)
