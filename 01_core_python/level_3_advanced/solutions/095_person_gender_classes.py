@@ -20,5 +20,13 @@ class Male(Person):
     gender = ""
 
     def __init__(self):
-        gender = "female"
+        gender = "Male"
+        return gender
+
+
+class Female(Person):
+    gender = ""
+
+    def __init__(self):
+        gender = "Female"
         return gender
