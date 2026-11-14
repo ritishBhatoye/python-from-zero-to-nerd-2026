@@ -30,3 +30,7 @@ class Female(Person):
     def __init__(self):
         gender = "Female"
         return gender
+
+
+m = Male("Ritish Bhatoye", 23)
+f = Female("Ritika", 22)
