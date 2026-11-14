@@ -3,11 +3,11 @@
 Shuffle and print list [3,6,7,8].
 """
 
-
 # Your implementation here
-pass
+import random
 
+numbers = [1, 2, 3, 4, 5, 6]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+random.shuffle(numbers)
+
+print(numbers)
