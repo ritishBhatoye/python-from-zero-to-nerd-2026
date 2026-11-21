@@ -3,11 +3,10 @@
 Remove 0th,2nd,4th,6th elements using enumerate.
 """
 
-
 # Your implementation here
-pass
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+result = [num for index, num in enumerate(numbers) if index % 2 != 0]
+
+print(result)

@@ -3,11 +3,8 @@
 Remove numbers divisible by 5 and 7 using comprehension.
 """
 
-
 # Your implementation here
-pass
+numbers = [10, 14, 15, 20, 21, 25, 28, 30, 35, 40, 42, 50]
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+result = [num for num in numbers if num % 5 != 0 and num % 7 != 0]
+print(result)
