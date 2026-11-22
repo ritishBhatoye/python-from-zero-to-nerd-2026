@@ -11,5 +11,6 @@ def solution():
     """
     Implement your solution here.
     """
-    # TODO: Implement solution
-    pass
+
+
+solution()
