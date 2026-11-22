@@ -1,14 +1,14 @@
 """
 Exercise 004: Array Memory Size
 """
+
 import numpy as np
 
 
 def solution():
-    """
-    Implement your solution here.
-    """
-    # TODO: Implement solution
+    n = np.array([[1, 2, 3], [4, 5, 6]])
+    print("N :- ", n)
+    print("Size :- ", n.nbytes)
     pass
 
 
