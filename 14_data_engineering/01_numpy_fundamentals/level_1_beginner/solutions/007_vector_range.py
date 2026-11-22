@@ -1,6 +1,7 @@
 """
 Exercise 007: Vector Range
 """
+
 import numpy as np
 
 
@@ -9,6 +10,8 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
+    a = np.random.randint(4, 8)
+    print(a)
     pass
 
 
