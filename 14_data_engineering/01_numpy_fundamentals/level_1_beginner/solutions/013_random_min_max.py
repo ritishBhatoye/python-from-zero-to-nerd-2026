@@ -11,8 +11,8 @@ def solution():
     """
     # TODO: Implement solution
     a = np.random.range(4, 2)
-    print("Min : ", a.min)
-    print("Max : ", a.max)
+    print("Min : ", np.min(a))
+    print("Max : ", np.max(a))
     pass
 
 
