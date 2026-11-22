@@ -10,7 +10,7 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    n = np.random.rand(4, 2)
+    n = np.random.rand(3, 3)
     return n
     pass
 
