@@ -1,13 +1,12 @@
 """
 Exercise 002: NumPy Version
 """
+
 import numpy as np
 
 
 def solution():
-    """
-    Implement your solution here.
-    """
+    print("Np Version : ", np.__version__)
     # TODO: Implement solution
     pass
 
