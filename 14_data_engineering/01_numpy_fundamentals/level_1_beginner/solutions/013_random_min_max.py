@@ -10,7 +10,7 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    a = np.random.range(4, 2)
+    a = np.random.rand(4, 2)
     print("Min : ", np.min(a))
     print("Max : ", np.max(a))
     pass
