@@ -5,9 +5,9 @@ Print characters at even indices.
 
 
 # Your implementation here
-pass
 
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+for i in range(len(l)):
+    if i % 2 == 0:
+        print(l[i])

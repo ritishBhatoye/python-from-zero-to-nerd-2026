@@ -3,11 +3,18 @@
 Compute 1/2+2/3+3/4+...+n/(n+1) for given n.
 """
 
-
 # Your implementation here
 pass
 
+n = int(input("Enter the value for n : "))
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+
+def cal(n):
+    sum = 0
+    for i in range(1, n + 1):
+        j = i / (i + 1)
+        sum += j
+    return sum
+
+
+print("Sum : ", cal(n))

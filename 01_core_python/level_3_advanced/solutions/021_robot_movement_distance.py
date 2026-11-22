@@ -3,11 +3,35 @@
 Calculate distance from origin after robot movements (UP/DOWN/LEFT/RIGHT).
 """
 
-
 # Your implementation here
 pass
+import math
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def total(x=[]):
+    sum = 0
+    for i in x:
+        sum += i
+    return sum
+
+
+def robotMoves(up=[], down=[], left=[], right=[]):  # noqa: N802
+    x = y = 0
+    uTotal = total(up)
+    dTotal = total(down)
+    lTotal = total(left)
+    rTotal = total(right)
+
+    x = abs(uTotal - dTotal)
+    y = abs(rTotal - lTotal)
+
+    h = x * x + y * y
+    result = math.sqrt(h)
+    return int(result)
+
+
+u = [5]
+d = [3]
+l = [3]
+r = [2]
+print("Result :- ", robotMoves(u, d, l, r))

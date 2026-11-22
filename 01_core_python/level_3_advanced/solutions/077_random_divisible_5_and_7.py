@@ -3,11 +3,12 @@
 Output random number divisible by both 5 and 7.
 """
 
-
 # Your implementation here
-pass
+import random
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+ans = []
+for i in range(1, 101):
+    if i % 7 == 0 and i % 5 == 0:
+        ans.append(i)
+num = random.choice(ans)
+print(num)

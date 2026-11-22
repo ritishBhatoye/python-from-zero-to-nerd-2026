@@ -5,9 +5,18 @@ Count and print frequency of each character.
 
 
 # Your implementation here
-pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def chrCount(n):
+    ans = {}
+    n = n.split()
+    for i in range(len(n)):
+        if n[i] in ans:
+            ans[n[i]] += 1
+        else:
+            ans[n[i]] = 1
+    return ans
+
+
+n = input("Enter string : ")
+print("Character count : ", chrCount(n))

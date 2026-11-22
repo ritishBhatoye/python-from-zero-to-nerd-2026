@@ -3,11 +3,10 @@
 Print all permutations of [1,2,3].
 """
 
-
 # Your implementation here
-pass
+from itertools import permutations
 
+l = [1, 2, 3]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+for i in permutations(l):
+    print(list(i))

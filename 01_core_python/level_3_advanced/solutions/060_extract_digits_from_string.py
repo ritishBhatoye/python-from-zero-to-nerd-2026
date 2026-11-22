@@ -3,11 +3,20 @@
 Extract only digit sequences from input string.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def extractDigitsFromSt(n):
+    ans = ""
+    for i in range(len(n)):
+        if n[i].isalpha():
+            i += 1
+        else:
+            ans += n[i]
+
+    return ans
+
+
+n = input("Enter the digits : ")
+print("Extract Digits from String : ", extractDigitsFromSt(n))

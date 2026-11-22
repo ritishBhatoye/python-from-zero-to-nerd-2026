@@ -3,11 +3,19 @@
 Define Circle class that can compute area.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+class Circle:
+    r = 1.0
+
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        return 3.14 * float(self.r) * float(self.r)
+
+
+c = Circle("5")
+print("Area : ", c.area())

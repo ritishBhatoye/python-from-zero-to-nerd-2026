@@ -3,11 +3,7 @@
 Print random integer between 7-15 inclusive.
 """
 
-
 # Your implementation here
-pass
+import random
 
-
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+print("Answer : ", random.randint(7, 15))

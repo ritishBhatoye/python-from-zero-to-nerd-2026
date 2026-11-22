@@ -3,11 +3,13 @@
 Use assert to verify all numbers in [2,4,6,8] are even.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+numbers = [2, 4, 6, 1, 8]
+
+for num in numbers:
+    assert num % 2 == 0
+
+print("All numbers are even!")

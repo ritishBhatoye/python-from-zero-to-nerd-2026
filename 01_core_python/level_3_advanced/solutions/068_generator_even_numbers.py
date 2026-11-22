@@ -3,11 +3,15 @@
 Use generator to print even numbers between 0 and n.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def genEven():
+    for i in range(1, 11):
+        if i % 2 == 0:
+            yield i
+
+
+for num in genEven():
+    print("Generating even numbers :- ", num)

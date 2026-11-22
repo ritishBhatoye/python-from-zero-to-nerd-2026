@@ -5,9 +5,21 @@ Define American class and NewYorker subclass.
 
 
 # Your implementation here
-pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+class American:
+    name = ""
+
+    def __init__(self, name):
+        self.name = name
+
+    def get_name(self):
+        return self.name
+
+
+class NewYorker(American):
+    pass
+
+
+subclass = NewYorker("Ritish Bhatoye")
+print(subclass.get_name())

@@ -3,11 +3,22 @@
 Use try/except to catch ZeroDivisionError from 5/0.
 """
 
-
 # Your implementation here
 pass
 
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+def func():
+    try:
+        n = int(input("Enter the num : "))
+        d = int(input("Enter the den : "))
+
+        print("Result : ", n / d)
+
+    except:
+        print("Error occurred ")
+
+    finally:
+        print("END is reached")
+
+
+func()

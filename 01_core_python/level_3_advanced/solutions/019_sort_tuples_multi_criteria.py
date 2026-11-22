@@ -3,11 +3,10 @@
 Sort (name,age,height) tuples by name, then age, then height.
 """
 
-
 # Your implementation here
 pass
 
+sample = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 
-if __name__ == "__main__":
-    # Test your solution
-    print("Implement me!")
+sample.sort()
+print(sample)
