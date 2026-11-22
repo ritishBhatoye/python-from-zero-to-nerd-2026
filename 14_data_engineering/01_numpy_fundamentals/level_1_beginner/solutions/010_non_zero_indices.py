@@ -11,7 +11,8 @@ def solution():
     """
     # TODO: Implement solution
     n = np.array([[1, 2, 0, 0, 4, 0]])
-
+    ans = [num,index in n if num[index]!=0]
+    return ans
     pass
 
 
