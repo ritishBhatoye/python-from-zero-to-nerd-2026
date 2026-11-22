@@ -9,10 +9,9 @@ def solution():
     """
     Implement your solution here.
     """
-    a = np.zeros((2, 2, 3))
+    a = np.zeros((2, 2))
+    a[0, 1] = 99
     print(a)
-
-    pass
 
 
 if __name__ == "__main__":
