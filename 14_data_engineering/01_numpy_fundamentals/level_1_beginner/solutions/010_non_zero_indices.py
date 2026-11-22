@@ -1,7 +1,6 @@
 """
 Exercise 010: Non-zero Indices
 """
-import numpy as np
 
 
 def solution():
@@ -9,6 +8,7 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
+
     pass
 
 
