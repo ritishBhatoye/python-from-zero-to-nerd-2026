@@ -1,13 +1,13 @@
 """
 Exercise 003: Null Vector
 """
+
 import numpy as np
 
 
 def solution():
-    """
-    Implement your solution here.
-    """
+    a = np.zeros((2, 2))
+    print(a)
     # TODO: Implement solution
     pass
 
