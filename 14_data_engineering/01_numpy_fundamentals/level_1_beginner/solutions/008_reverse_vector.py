@@ -1,6 +1,7 @@
 """
 Exercise 008: Reverse Vector
 """
+
 import numpy as np
 
 
@@ -8,7 +9,9 @@ def solution():
     """
     Implement your solution here.
     """
-    # TODO: Implement solution
+    a = np.array([1, 2, 3, 4, 5, 6])
+    a.reverse
+    print(a)
     pass
 
 
