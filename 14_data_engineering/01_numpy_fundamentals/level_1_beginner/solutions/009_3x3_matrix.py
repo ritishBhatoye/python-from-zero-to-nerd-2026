@@ -10,7 +10,7 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    a = np.ones(3, 3)
+    a = np.ones((3, 3))
     print(a)
     pass
 
