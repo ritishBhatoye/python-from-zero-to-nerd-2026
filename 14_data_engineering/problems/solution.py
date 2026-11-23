@@ -195,6 +195,9 @@ class ImportantDL(Solution):
 
 class RealWorldExercise(Solution):
     def weightedSum():
-        input = np.array([2, 3, 4])
+        ip = np.array([2, 3, 4])
         weight = np.array([0.5, 0.2, 0.8])
         bias = 1.5
+
+        result = np.matmul(ip, weight) + bias
+        return result
