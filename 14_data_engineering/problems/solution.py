@@ -207,3 +207,9 @@ class RealWorldExercise(Solution):
 
         a[a < 0] = 0
         return a
+
+    def sigmoidAct():
+        a = np.array([-2, -1, 0, 1, 2])
+        deno = 1 + np.exp(a)
+        result = 1 / deno
+        return result
