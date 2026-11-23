@@ -10,7 +10,12 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    a = np.identity((5, 5))
+    a = np.identity(5)
+    a[1][1] = 2
+    a[2][2] = 3
+    a[3][3] = 4
+    a[4][4] = 5
+
     return a
     pass
 
