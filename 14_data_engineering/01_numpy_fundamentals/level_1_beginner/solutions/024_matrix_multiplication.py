@@ -2,12 +2,15 @@
 Exercise 024: Matrix Multiplication
 """
 
+import numpy as np
+
 
 def solution():
     """
     Implement your solution here.
     """
     # TODO: Implement solution
+    a = np.array
     pass
 
 
