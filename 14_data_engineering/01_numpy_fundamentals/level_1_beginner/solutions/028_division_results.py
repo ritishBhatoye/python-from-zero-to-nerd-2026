@@ -1,7 +1,6 @@
 """
 Exercise 028: Division Results
 """
-import numpy as np
 
 
 def solution():
