@@ -191,3 +191,10 @@ class ImportantDL(Solution):
 
         print("Axis = 0 ", rowSum)
         print("Axis = 1 ", colSum)
+
+
+class RealWorldExercise(Solution):
+    def weightedSum():
+        input = np.array([2, 3, 4])
+        weight = np.array([0.5, 0.2, 0.8])
+        bias = 1.5
