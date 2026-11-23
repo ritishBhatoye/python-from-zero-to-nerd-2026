@@ -71,3 +71,12 @@ class Solution:
     def reverseArray():
         arr = np.array([1, 2, 3, 4, 5, 6])
         return arr.flip
+
+    # 11
+    def flattenArray():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 3)
+        return arr.flatten
+
+    # 12
+    def transposingArray():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
