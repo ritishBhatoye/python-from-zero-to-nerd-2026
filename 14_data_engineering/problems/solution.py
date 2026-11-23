@@ -60,3 +60,14 @@ class Solution:
 
         rows = arr[:2, :]
         return rows
+
+    # 9
+    def extractLastTwoColumn():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
+        cols = arr[:, -1:2]
+        return cols
+
+    # 10
+    def reverseArray():
+        arr = np.array([1, 2, 3, 4, 5, 6])
+        return arr.flip
