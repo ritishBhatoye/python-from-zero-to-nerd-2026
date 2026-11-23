@@ -84,4 +84,8 @@ class Solution:
         print("After transpose the new shape : ", b.shape())
 
 
-class MathsOperation:Solution:
+class MathsOperation(Solution):
+        a = np.array([[1, 2], [3, 4]])
+        b = np.array([[1, 0], [1, 2]])
+         def arithmeticOperation():
+      
