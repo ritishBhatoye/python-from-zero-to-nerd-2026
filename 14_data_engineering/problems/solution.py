@@ -48,3 +48,12 @@ class Solution:
         cols = arr[:, 2]
         print("Rows : ", rows)
         print("Cols : ", cols)
+
+    # 7
+    def customArray():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
+        return arr
+
+    # 8
+    def extractFirstTwoRows():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
