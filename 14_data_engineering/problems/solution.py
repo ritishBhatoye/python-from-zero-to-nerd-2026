@@ -112,3 +112,6 @@ class MathsOperation(Solution):
     # 15. Calculate the mean of every row and every column of a 3×3 matrix.
     def meanOfRowAndCol():
         arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9]).reshape(3, 3)
+
+        print("Mean of every row : ", np.mean(arr, axis=1))
+        print("Mean of every column : ", np.mean(arr, axis=0))
