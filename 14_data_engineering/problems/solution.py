@@ -140,5 +140,11 @@ class ImportantDL(Solution):
     def genRadom():
         arr = np.random.range(0, 100)
         return arr
+
     def extractValuesGrtThan50():
-        
+        arr = np.array([10, 25, 45, 55, 60, 75, 30, 90])
+
+        mask = arr > 50
+        result = arr[mask]
+        print("Boolean Mask : ", mask)
+        print("Values greater than 50 : ", result)
