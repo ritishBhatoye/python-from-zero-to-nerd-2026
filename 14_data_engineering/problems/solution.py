@@ -213,3 +213,10 @@ class RealWorldExercise(Solution):
         deno = 1 + np.exp(-a)
         result = 1 / deno
         return result
+
+    def simpleNeuron():
+        ip = np.array([1, 2, 3])
+        w = np.array([4, 6, 9])
+        bias = 1
+        result = np.dot(ip, w) + bias
+        return result
