@@ -1,7 +1,6 @@
 """
 Exercise 024: Matrix Multiplication
 """
-import numpy as np
 
 
 def solution():

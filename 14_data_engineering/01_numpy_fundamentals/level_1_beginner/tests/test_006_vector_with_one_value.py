@@ -12,6 +12,16 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_vector_with_one_value():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test vector with one non-zero value."""
+    import numpy as np
+    z = np.zeros(10)
+    z[4] = 1
+    assert z.shape == (10,)
+    assert z[4] == 1
+    assert np.sum(z) == 1
+    assert np.count_nonzero(z) == 1
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

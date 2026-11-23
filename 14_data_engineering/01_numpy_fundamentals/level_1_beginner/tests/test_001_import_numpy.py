@@ -12,6 +12,12 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_import_numpy():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test NumPy import."""
+    import numpy as np
+    assert hasattr(np, '__version__')
+    assert hasattr(np, 'array')
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

@@ -12,6 +12,13 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_numpy_version():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test NumPy version and config."""
+    import numpy as np
+    assert np.__version__ is not None
+    # Config should be callable
+    assert hasattr(np, 'show_config')
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

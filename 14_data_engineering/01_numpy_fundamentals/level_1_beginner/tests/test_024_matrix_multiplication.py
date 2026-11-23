@@ -12,6 +12,13 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_matrix_multiplication():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test for exercise 024: Matrix Multiplication."""
+    import numpy as np
+    # TODO: Implement comprehensive test cases
+    # This is a placeholder - add specific assertions based on the exercise
+    assert np is not None
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

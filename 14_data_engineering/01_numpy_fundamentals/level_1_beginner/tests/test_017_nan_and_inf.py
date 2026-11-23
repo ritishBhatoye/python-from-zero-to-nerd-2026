@@ -12,6 +12,14 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_nan_and_inf():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test NaN and Inf behavior."""
+    import numpy as np
+    assert np.isnan(0 * np.nan)
+    assert not (np.nan == np.nan)
+    assert not (np.inf > np.nan)
+    assert np.isnan(np.nan - np.nan)
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

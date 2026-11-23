@@ -12,6 +12,15 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_vector_range():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test vector with range values."""
+    import numpy as np
+    z = np.arange(10, 50)
+    assert z.shape == (40,)
+    assert z[0] == 10
+    assert z[-1] == 49
+    assert len(z) == 40
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

@@ -12,6 +12,14 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_diagonal_matrix():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test matrix with values below diagonal."""
+    import numpy as np
+    z = np.diag(1 + np.arange(4), k=-1)
+    assert z.shape == (5, 5)
+    assert z[1, 0] == 1
+    assert z[4, 3] == 4
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

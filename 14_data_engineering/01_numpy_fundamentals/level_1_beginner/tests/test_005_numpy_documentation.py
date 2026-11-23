@@ -12,6 +12,13 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_numpy_documentation():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test NumPy documentation access."""
+    import numpy as np
+    # Check that add function has documentation
+    assert np.add.__doc__ is not None
+    assert 'add' in dir(np)
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

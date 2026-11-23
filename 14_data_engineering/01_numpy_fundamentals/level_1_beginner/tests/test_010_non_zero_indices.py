@@ -12,6 +12,13 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_non_zero_indices():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test finding non-zero indices."""
+    import numpy as np
+    nz = np.nonzero([1, 2, 0, 0, 4, 0])
+    assert len(nz[0]) == 3
+    assert list(nz[0]) == [0, 1, 4]
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

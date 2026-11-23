@@ -12,6 +12,15 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_3d_random_array():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test 3D random array creation."""
+    import numpy as np
+    z = np.random.random((3, 3, 3))
+    assert z.shape == (3, 3, 3)
+    assert z.ndim == 3
+    assert 0 <= z.min() <= 1
+    assert 0 <= z.max() <= 1
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

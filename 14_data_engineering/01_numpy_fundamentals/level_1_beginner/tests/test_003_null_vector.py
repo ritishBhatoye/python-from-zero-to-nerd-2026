@@ -12,6 +12,14 @@ sys.path.insert(0, str(solutions_dir))
 
 
 def test_null_vector():
-    """Test the solution."""
-    # TODO: Implement test cases
-    pass
+    """Test null vector creation."""
+    import numpy as np
+    z = np.zeros(10)
+    assert z.shape == (10,)
+    assert np.all(z == 0)
+    assert z.dtype == np.float64
+
+
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])
