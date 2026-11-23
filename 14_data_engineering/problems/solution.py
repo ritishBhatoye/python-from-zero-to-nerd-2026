@@ -35,3 +35,10 @@ class Solution:
         print("Ones array : ", oArr)
         iArr = np.identity(4, 4)
         print("Identity array : ", iArr)
+    #5
+    def genArrFrom0to10():
+        gArray = np.linespace(0,10,20)
+        print(gArray)
+    #6
+    def extractingRowNCol():
+        
