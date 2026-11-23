@@ -100,3 +100,11 @@ class MathsOperation(Solution):
     def division(self):
         result = self.a / self.b
         return result
+
+    # 14 Calculate the sum, mean, minimum and maximum
+    def calSMMM():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 10])
+        print("Sum : ", np.sum(arr))
+        print("Mean : ", np.mean(arr))
+        print("Max : ", arr.max())
+        print("Min : ", arr.min())
