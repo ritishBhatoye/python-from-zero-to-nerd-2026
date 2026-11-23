@@ -42,8 +42,9 @@ class Solution:
         print(gArray)
 
     # 6
-    def extractingRows():
-        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]).reshape(
-            3, 4
-        )
-        rows = arr[1,]
+    def extractingRowNCol():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
+        rows = arr[1, :]
+        cols = arr[:, 2]
+        print("Rows : ", rows)
+        print("Cols : ", cols)
