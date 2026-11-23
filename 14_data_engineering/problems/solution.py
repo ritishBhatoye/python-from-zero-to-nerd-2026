@@ -57,3 +57,6 @@ class Solution:
     # 8
     def extractFirstTwoRows():
         arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(3, 4)
+
+        rows = arr[:2, :]
+        return rows
