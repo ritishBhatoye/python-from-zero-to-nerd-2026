@@ -10,10 +10,10 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    a = np.sum(np.arrange(5)) - 1
-    print("With numpy : ",a)
-      b = sum(range(5), - 1)
-    print("Without numpy : ",b)
+    a = np.sum(np.arange(5)) - 1
+    print("With numpy : ", a)
+    b = sum(range(5), -1)
+    print("Without numpy : ", b)
     pass
 
 
