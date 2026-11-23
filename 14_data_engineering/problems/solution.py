@@ -21,3 +21,11 @@ class Solution:
                 [9, 10, 11, 12],
             ]
         )
+        print("Size of array : ", arr.size)
+        print("Shape of array : ", arr.shape)
+        print("Dimension of array : ", arr.ndim)
+        print("Type of array : ", arr.dtype)
+
+    # 4
+    def arrCreationWithRes():
+        zArr = np.zeros(4, 4)
