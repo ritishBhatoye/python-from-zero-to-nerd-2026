@@ -119,6 +119,11 @@ class MathsOperation(Solution):
     # 16. Calculate the standard deviation and variance of an array.
     def sdNvariance():
         arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
-        sum = np.sum(arr)
         mean = np.mean(arr)
         n = arr.size
+
+        sum = np.sum((arr - mean) ** 2)
+        variance = sum / n
+        sd = np.sqrt(variance)
+        print("Variance :- ", variance)
+        print("Standard Deviation :- ", sd)
