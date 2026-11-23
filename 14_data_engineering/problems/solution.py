@@ -127,3 +127,6 @@ class MathsOperation(Solution):
         sd = np.sqrt(variance)
         print("Variance :- ", variance)
         print("Standard Deviation :- ", sd)
+
+    def dotProduct(self):
+        return np.dot(self.a, self.b)
