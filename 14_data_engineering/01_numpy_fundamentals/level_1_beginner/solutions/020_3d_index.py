@@ -10,7 +10,7 @@ def solution():
     Implement your solution here.
     """
     # TODO: Implement solution
-    result = np.unravel_index(5, (2, 3, 4))
+    result = np.unravel_index(99, (6, 7, 8))
     return result
     pass
 
