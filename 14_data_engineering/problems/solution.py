@@ -130,3 +130,13 @@ class MathsOperation(Solution):
 
     def dotProduct(self):
         return np.dot(self.a, self.b)
+
+
+class ImportantDL(Solution):
+    def __init__(self):
+        self.a = np.array([[1, 2], [3, 4]])
+        self.b = np.array([[1, 0], [1, 2]])
+
+    def genRadom():
+        arr = np.random.range(0, 100)
+        return arr
