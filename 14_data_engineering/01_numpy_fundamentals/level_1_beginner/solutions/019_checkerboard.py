@@ -1,7 +1,6 @@
 """
 Exercise 019: Checkerboard
 """
-import numpy as np
 
 
 def solution():
