@@ -108,3 +108,7 @@ class MathsOperation(Solution):
         print("Mean : ", np.mean(arr))
         print("Max : ", arr.max())
         print("Min : ", arr.min())
+
+    # 15. Calculate the mean of every row and every column of a 3×3 matrix.
+    def meanOfRowAndCol():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9]).reshape(3, 3)
