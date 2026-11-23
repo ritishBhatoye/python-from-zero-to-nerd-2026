@@ -11,8 +11,8 @@ def solution():
     """
     # TODO: Implement solution
     a = np.identity(2)
-    np.tile(a, (6, 6))
-    return a
+    b = np.tile(a, (4, 4))
+    return b
     pass
 
 
