@@ -92,3 +92,11 @@ class MathsOperation(Solution):
     def sum(self):
         result = self.a + self.b
         return result
+
+    def multiply(self):
+        result = np.matmul(self.a, self.b)
+        return result
+
+    def division(self):
+        result = self.a / self.b
+        return result
