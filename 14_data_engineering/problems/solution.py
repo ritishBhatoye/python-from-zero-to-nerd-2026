@@ -222,23 +222,10 @@ class RealWorldExercise(Solution):
         return result
 
     def matrixMul():
-        inputMax = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]).resize(4, 3)
-        weightMax = np.array(
-            [
-                6,
-                23,
-                40,
-                2,
-                12,
-                1,
-                2,
-                30,
-                4,
-                5,
-            ]
-        ).resize(3, 2)
-        bias = np.array().resize(2, 0)
-        result = np.dot(inputMax, weightMax)
+        inputMax = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).reshape(4, 3)
 
-        ans = np.sum(result, bias)
-        return ans
+        weightMax = np.array([6, 23, 40, 2, 12, 1]).reshape(3, 2)
+        bias = np.array([1, 2])
+        result = np.dot(inputMax, weightMax) + bias
+
+        return result
