@@ -140,3 +140,5 @@ class ImportantDL(Solution):
     def genRadom():
         arr = np.random.range(0, 100)
         return arr
+    def extractValuesGrtThan50():
+        
