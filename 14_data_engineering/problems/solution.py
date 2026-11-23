@@ -85,7 +85,10 @@ class Solution:
 
 
 class MathsOperation(Solution):
-        a = np.array([[1, 2], [3, 4]])
-        b = np.array([[1, 0], [1, 2]])
-         def arithmeticOperation():
-      
+    def __init__(self):
+        self.a = np.array([[1, 2], [3, 4]])
+        self.b = np.array([[1, 0], [1, 2]])
+
+    def sum(self):
+        result = self.a + self.b
+        return result
