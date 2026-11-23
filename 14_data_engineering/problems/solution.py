@@ -117,3 +117,5 @@ class MathsOperation(Solution):
         print("Mean of every column : ", np.mean(arr, axis=0))
 
     # 16. Calculate the standard deviation and variance of an array.
+    def sdNvariance():
+        arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9]).reshape(3, 3)
