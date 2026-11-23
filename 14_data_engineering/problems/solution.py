@@ -148,3 +148,8 @@ class ImportantDL(Solution):
         result = arr[mask]
         print("Boolean Mask : ", mask)
         print("Values greater than 50 : ", result)
+
+    def replacementWithZeros():
+        arr = np.array([-5, 10, -3, 20, -8, 15])
+        arr[arr < 0] = 0
+        return arr
