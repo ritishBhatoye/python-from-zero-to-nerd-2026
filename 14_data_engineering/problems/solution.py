@@ -201,3 +201,9 @@ class RealWorldExercise(Solution):
 
         result = np.matmul(ip, weight) + bias
         return result
+
+    def ReLUActivationFunction():
+        a = np.array([-3, 5, -2, 8, 0, -7])
+
+        a[a < 0] = 0
+        return a
