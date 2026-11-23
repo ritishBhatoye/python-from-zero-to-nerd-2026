@@ -1,7 +1,6 @@
 """
 Exercise 020: 3D Index
 """
-import numpy as np
 
 
 def solution():
