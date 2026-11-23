@@ -185,3 +185,9 @@ class ImportantDL(Solution):
                 25,
             ]
         ).reshape(5, 5)
+
+        rowSum = np.sum(a, axis=0)
+        colSum = np.sum(a, axis=1)
+
+        print("Axis = 0 ", rowSum)
+        print("Axis = 1 ", colSum)
