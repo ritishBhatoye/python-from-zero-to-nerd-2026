@@ -154,3 +154,34 @@ class ImportantDL(Solution):
         arr[arr < 0] = 0
         return arr
         # 24. Create a 5×5 matrix and calculate the sum along `axis=0` and `axis=1`.
+
+    def create5by5Matrix():
+        a = np.array(
+            [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+            ]
+        ).reshape(5, 5)
