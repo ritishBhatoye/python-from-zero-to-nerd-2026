@@ -153,3 +153,4 @@ class ImportantDL(Solution):
         arr = np.array([-5, 10, -3, 20, -8, 15])
         arr[arr < 0] = 0
         return arr
+        # 24. Create a 5×5 matrix and calculate the sum along `axis=0` and `axis=1`.
