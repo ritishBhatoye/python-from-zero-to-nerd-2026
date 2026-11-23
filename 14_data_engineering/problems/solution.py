@@ -29,3 +29,9 @@ class Solution:
     # 4
     def arrCreationWithRes():
         zArr = np.zeros(4, 4)
+
+        print("Zeros array : ", zArr)
+        oArr = np.ones(4, 4)
+        print("Ones array : ", oArr)
+        iArr = np.identity(4, 4)
+        print("Identity array : ", iArr)
